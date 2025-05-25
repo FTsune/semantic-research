@@ -1,1252 +1,1752 @@
 [   
-    {
-      "query": "What is the function of the Presidential Electoral Tribunal (PET)?",
-      "passages": [
-        {
-          "text": "The Presidential Electoral Tribunal is a special tribunal composed of Supreme Court Justices that resolves electoral protests related to presidential and vice-presidential elections.",
-          "label": "exact",
-          "relevant": true
-        },
-        {
-          "text": "The PET handles disputes about the outcome of elections for the highest executive positions in the Philippines.",
-          "label": "paraphrase",
-          "relevant": true
-        },
-        {
-          "text": "The Commission on Elections oversees the conduct of national and local elections.",
-          "label": "irrelevant",
-          "relevant": false
-        },
-        {
-          "text": "Electoral disputes require specialized forums to ensure the integrity of democratic processes.",
-          "label": "conceptual",
-          "relevant": true
-        }
-      ]
-    },
-    {
-      "query": "What is 'estafa' under Philippine criminal law?",
-      "passages": [
-        {
-          "text": "Estafa is a crime involving deceit or fraud where one party causes damage to another by abusing confidence or through fraudulent means.",
-          "label": "exact",
-          "relevant": true
-        },
-        {
-          "text": "In Philippine law, estafa occurs when a person defrauds another of money or property through misrepresentation or deception.",
-          "label": "paraphrase",
-          "relevant": true
-        },
-        {
-          "text": "Robbery is the taking of personal property through violence or intimidation.",
-          "label": "irrelevant",
-          "relevant": false
-        },
-        {
-          "text": "The Revised Penal Code penalizes various forms of fraudulent activities that cause financial harm.",
-          "label": "conceptual",
-          "relevant": true
-        }
-      ]
-    },
-    {
-      "query": "What is the principle of 'in dubio pro reo' in Philippine jurisprudence?",
-      "passages": [
-        {
-          "text": "In dubio pro reo is a legal principle stating that in case of doubt, courts must rule in favor of the accused, embodying the presumption of innocence.",
-          "label": "exact",
-          "relevant": true
-        },
-        {
-          "text": "When evidence is insufficient to establish guilt beyond reasonable doubt, the accused must be acquitted under the principle of in dubio pro reo.",
-          "label": "paraphrase",
-          "relevant": true
-        },
-        {
-          "text": "The prosecutor has the burden of proving the crime beyond reasonable doubt.",
-          "label": "irrelevant",
-          "relevant": false
-        },
-        {
-          "text": "Criminal justice systems incorporate safeguards to protect potentially innocent individuals from wrongful conviction.",
-          "label": "conceptual",
-          "relevant": true
-        }
-      ]
-    },
-    {
-      "query": "What is the concept of 'reserved powers' under the Local Government Code?",
-      "passages": [
-        {
-          "text": "Reserved powers are those authorities and functions retained by the national government even after devolution under the Local Government Code.",
-          "label": "exact",
-          "relevant": true
-        },
-        {
-          "text": "Under the Local Government Code, certain powers remain with the central government despite decentralization to local units.",
-          "label": "paraphrase",
-          "relevant": true
-        },
-        {
-          "text": "Local government units include provinces, cities, municipalities, and barangays.",
-          "label": "irrelevant",
-          "relevant": false
-        },
-        {
-          "text": "The distribution of powers between national and local authorities defines the Philippine governance structure.",
-          "label": "conceptual",
-          "relevant": true
-        }
-      ]
-    },
-    {
-      "query": "What is 'litis pendentia' as a ground for dismissal of a case?",
-      "passages": [
-        {
-          "text": "Litis pendentia is a ground for dismissal when there is another pending action involving the same parties, same causes of action, and same reliefs sought.",
-          "label": "exact",
-          "relevant": true
-        },
-        {
-          "text": "A case may be dismissed due to litis pendentia if an identical lawsuit is already being heard by another court.",
-          "label": "paraphrase",
-          "relevant": true
-        },
-        {
-          "text": "The rules of court establish procedures for filing pleadings and motions.",
-          "label": "irrelevant",
-          "relevant": false
-        },
-        {
-          "text": "Legal procedures exist to prevent duplicate litigation and conflicting judgments.",
-          "label": "conceptual",
-          "relevant": true
-        }
-      ]
-    },
-    {
-      "query": "What is the Cybercrime Prevention Act of 2012 (RA 10175)?",
-      "passages": [
-        {
-          "text": "RA 10175 is a law that defines and penalizes cybercrimes in the Philippines, including illegal access, data interference, and cyber libel.",
-          "label": "exact",
-          "relevant": true
-        },
-        {
-          "text": "The Cybercrime Prevention Act criminalizes online offenses and provides mechanisms for investigation and prosecution of digital crimes.",
-          "label": "paraphrase",
-          "relevant": true
-        },
-        {
-          "text": "The Department of Information and Communications Technology oversees the country's ICT development.",
-          "label": "irrelevant",
-          "relevant": false
-        },
-        {
-          "text": "Legal frameworks have evolved to address technological developments and their implications for criminal behavior.",
-          "label": "conceptual",
-          "relevant": true
-        }
-      ]
-    },
-    {
-      "query": "What is the concept of 'psychological incapacity' in Philippine family law?",
-      "passages": [
-        {
-          "text": "Psychological incapacity refers to a serious psychological condition that renders a spouse incapable of fulfilling essential marital obligations, serving as a ground for declaration of nullity of marriage.",
-          "label": "exact",
-          "relevant": true
-        },
-        {
-          "text": "In Philippine family law, a marriage may be declared void if one spouse is found to have psychological incapacity that prevents them from performing marital duties.",
-          "label": "paraphrase",
-          "relevant": true
-        },
-        {
-          "text": "Legal separation allows spouses to live separately without dissolving the marriage.",
-          "label": "irrelevant",
-          "relevant": false
-        },
-        {
-          "text": "The Family Code provides means to address fundamentally flawed marital relationships.",
-          "label": "conceptual",
-          "relevant": true
-        }
-      ]
-    },
-    {
-      "query": "What is the Anti-Money Laundering Act (AMLA) in the Philippines?",
-      "passages": [
-        {
-          "text": "The Anti-Money Laundering Act criminalizes the process of concealing or disguising the proceeds of unlawful activities to make them appear to have originated from legitimate sources.",
-          "label": "exact",
-          "relevant": true
-        },
-        {
-          "text": "AMLA establishes mechanisms to detect and prevent the conversion of illegally obtained funds into seemingly legal assets.",
-          "label": "paraphrase",
-          "relevant": true
-        },
-        {
-          "text": "Banks are required to maintain records of their transactions.",
-          "label": "irrelevant",
-          "relevant": false
-        },
-        {
-          "text": "Financial regulations aim to prevent criminal proceeds from entering the legitimate economy.",
-          "label": "conceptual",
-          "relevant": true
-        }
-      ]
-    },
-    {
-      "query": "What is 'separation of powers' in the Philippine government?",
-      "passages": [
-        {
-          "text": "Separation of powers is a constitutional principle that divides government authority among three branches: executive, legislative, and judicial, with each serving as a check on the others.",
-          "label": "exact",
-          "relevant": true
-        },
-        {
-          "text": "The Philippine government structure distributes powers among different branches to prevent concentration of authority and ensure checks and balances.",
-          "label": "paraphrase",
-          "relevant": true
-        },
-        {
-          "text": "The President serves as both head of state and head of government.",
-          "label": "irrelevant",
-          "relevant": false
-        },
-        {
-          "text": "Constitutional democracies establish mechanisms to prevent abuse of power and protect democratic institutions.",
-          "label": "conceptual",
-          "relevant": true
-        }
-      ]
-    },
-    {
-      "query": "What is the Philippine Competition Act (RA 10667)?",
-      "passages": [
-        {
-          "text": "The Philippine Competition Act aims to protect consumer welfare by promoting competitive markets and prohibiting anti-competitive agreements, abuse of dominant position, and anti-competitive mergers.",
-          "label": "exact",
-          "relevant": true
-        },
-        {
-          "text": "RA 10667 establishes the Philippine Competition Commission to prevent monopolies and ensure fair market competition.",
-          "label": "paraphrase",
-          "relevant": true
-        },
-        {
-          "text": "The Securities and Exchange Commission regulates the corporate sector and capital markets.",
-          "label": "irrelevant",
-          "relevant": false
-        },
-        {
-          "text": "Economic regulations foster competitive business environments that benefit consumers and the economy.",
-          "label": "conceptual",
-          "relevant": true
-        }
-      ]
-    },
-    {
-      "query": "What is the concept of 'intellectual property rights' under Philippine law?",
-      "passages": [
-        {
-          "text": "Intellectual property rights are legal protections granted to creators and inventors for their creative works and innovations, including copyrights, patents, and trademarks.",
-          "label": "exact",
-          "relevant": true
-        },
-        {
-          "text": "Philippine IP laws protect original works, inventions, and distinctive marks used in commerce from unauthorized use or reproduction.",
-          "label": "paraphrase",
-          "relevant": true
-        },
-        {
-          "text": "The Intellectual Property Office of the Philippines processes applications for IP registration.",
-          "label": "irrelevant",
-          "relevant": false
-        },
-        {
-          "text": "Legal systems incentivize innovation by providing creators with exclusive rights to their intellectual creations.",
-          "label": "conceptual",
-          "relevant": true
-        }
-      ]
-    },
-    {
-      "query": "What is the principle of 'stare decisis' in Philippine jurisprudence?",
-      "passages": [
-        {
-          "text": "Stare decisis is the principle that courts follow precedents set by higher courts or their own previous decisions, ensuring consistency and predictability in the legal system.",
-          "label": "exact",
-          "relevant": true
-        },
-        {
-          "text": "Lower courts are bound by the decisions of the Supreme Court under the doctrine of stare decisis.",
-          "label": "paraphrase",
-          "relevant": true
-        },
-        {
-          "text": "The Supreme Court has administrative supervision over all courts.",
-          "label": "irrelevant",
-          "relevant": false
-        },
-        {
-          "text": "Judicial systems rely on established case law to guide future rulings on similar issues.",
-          "label": "conceptual",
-          "relevant": true
-        }
-      ]
-    },
-    {
-      "query": "What is 'bail' in Philippine criminal procedure?",
-      "passages": [
-        {
-          "text": "Bail is the security given for the release of a person in custody, conditioned upon the person's appearance in court when required.",
-          "label": "exact",
-          "relevant": true
-        },
-        {
-          "text": "In Philippine criminal procedure, bail allows temporary freedom for the accused while their case is being heard by posting security.",
-          "label": "paraphrase",
-          "relevant": true
-        },
-        {
-          "text": "Criminal cases are initiated through the filing of a complaint or information.",
-          "label": "irrelevant",
-          "relevant": false
-        },
-        {
-          "text": "Pretrial release mechanisms balance the presumption of innocence with ensuring court appearance.",
-          "label": "conceptual",
-          "relevant": true
-        }
-      ]
-    },
-    {
-      "query": "What is the Anti-Hazing Law (RA 8049) in the Philippines?",
-      "passages": [
-        {
-          "text": "The Anti-Hazing Law prohibits hazing and regulates initiation rites of fraternities, sororities, and organizations, imposing penalties for violations resulting in injury or death.",
-          "label": "exact",
-          "relevant": true
-        },
-        {
-          "text": "RA 8049 criminalizes dangerous initiation practices that cause physical or psychological harm to students joining organizations.",
-          "label": "paraphrase",
-          "relevant": true
-        },
-        {
-          "text": "Educational institutions have disciplinary boards that handle student misconduct.",
-          "label": "irrelevant",
-          "relevant": false
-        },
-        {
-          "text": "Laws protect young people from harmful traditions that may endanger their wellbeing.",
-          "label": "conceptual",
-          "relevant": true
-        }
-      ]
-    },
-    {
-      "query": "What is the principle of 'eminent domain' in Philippine property law?",
-      "passages": [
-        {
-          "text": "Eminent domain is the inherent power of the state to take private property for public use upon payment of just compensation.",
-          "label": "exact",
-          "relevant": true
-        },
-        {
-          "text": "The government's authority to expropriate private land for public purposes, subject to fair payment, is known as eminent domain.",
-          "label": "paraphrase",
-          "relevant": true
-        },
-        {
-          "text": "Land titles are registered with the Registry of Deeds.",
-          "label": "irrelevant",
-          "relevant": false
-        },
-        {
-          "text": "Constitutional provisions balance private property rights with public interest needs.",
-          "label": "conceptual",
-          "relevant": true
-        }
-      ]
-    },
-    {
-      "query": "What is the 'Rule on DNA Evidence' in Philippine courts?",
-      "passages": [
-        {
-          "text": "The Rule on DNA Evidence provides guidelines for the admissibility, collection, handling, and appreciation of DNA evidence in civil and criminal cases.",
-          "label": "exact",
-          "relevant": true
-        },
-        {
-          "text": "Philippine courts follow specific procedures for accepting and evaluating genetic test results as evidence.",
-          "label": "paraphrase",
-          "relevant": true
-        },
-        {
-          "text": "The National Bureau of Investigation conducts forensic examinations.",
-          "label": "irrelevant",
-          "relevant": false
-        },
-        {
-          "text": "Modern scientific methods have been integrated into legal procedures to improve accuracy in fact-finding.",
-          "label": "conceptual",
-          "relevant": true
-        }
-      ]
-    },
-    {
-      "query": "What is the concept of 'visitorial power' over corporations?",
-      "passages": [
-        {
-          "text": "Visitorial power is the authority of regulatory agencies to examine the operations, books, and records of corporations to ensure compliance with laws and regulations.",
-          "label": "exact",
-          "relevant": true
-        },
-        {
-          "text": "Government regulators can inspect and investigate corporate activities through their visitorial powers.",
-          "label": "paraphrase",
-          "relevant": true
-        },
-        {
-          "text": "Corporations are required to submit annual financial statements.",
-          "label": "irrelevant",
-          "relevant": false
-        },
-        {
-          "text": "Regulatory frameworks enable government oversight of business entities to protect public interest.",
-          "label": "conceptual",
-          "relevant": true
-        }
-      ]
-    },
-    {
-      "query": "What is 'legal education' requirement for lawyers in the Philippines?",
-      "passages": [
-        {
-          "text": "Legal education in the Philippines requires completion of a four-year Bachelor of Laws degree after obtaining an undergraduate degree, followed by passing the Bar examinations.",
-          "label": "exact",
-          "relevant": true
-        },
-        {
-          "text": "To become a lawyer in the Philippines, one must graduate from an accredited law school and pass the Bar exams administered by the Supreme Court.",
-          "label": "paraphrase",
-          "relevant": true
-        },
-        {
-          "text": "The Integrated Bar of the Philippines is the national organization of lawyers.",
-          "label": "irrelevant",
-          "relevant": false
-        },
-        {
-          "text": "Professional licensing systems ensure competent and qualified practitioners in specialized fields.",
-          "label": "conceptual",
-          "relevant": true
-        }
-      ]
-    },
-    {
-      "query": "What is the concept of 'presidential immunity' in Philippine law?",
-      "passages": [
-        {
-          "text": "Presidential immunity is the legal doctrine that protects a sitting President from lawsuits for official acts during their term, though not necessarily for acts done before or after their presidency.",
-          "label": "exact",
-          "relevant": true
-        },
-        {
-          "text": "While in office, the Philippine President enjoys immunity from certain legal proceedings related to their official functions.",
-          "label": "paraphrase",
-          "relevant": true
-        },
-        {
-          "text": "The President appoints members of the Cabinet with the Commission on Appointments' consent.",
-          "label": "irrelevant",
-          "relevant": false
-        },
-        {
-          "text": "Executive privileges aim to ensure the effective functioning of the highest office without undue judicial interference.",
-          "label": "conceptual",
-          "relevant": true
-        }
-      ]
-    },
-    {
-      "query": "What is the Anti-Torture Act of 2009 (RA 9745)?",
-      "passages": [
-        {
-          "text": "The Anti-Torture Act criminalizes acts of torture and other cruel, inhuman, and degrading treatment or punishment, establishing liability for perpetrators, particularly state agents.",
-          "label": "exact",
-          "relevant": true
-        },
-        {
-          "text": "RA 9745 prohibits physical and mental torture and provides remedies and protection for victims.",
-          "label": "paraphrase",
-          "relevant": true
-        },
-        {
-          "text": "The Philippine National Police is responsible for maintaining peace and order.",
-          "label": "irrelevant",
-          "relevant": false
-        },
-        {
-          "text": "Human rights laws protect individuals from abuses, especially those committed under color of authority.",
-          "label": "conceptual",
-          "relevant": true
-        }
-      ]
-    },
-    {
-      "query": "What is the doctrine of 'res judicata' in Philippine civil procedure?",
-      "passages": [
-        {
-          "text": "Res judicata is the principle that a final judgment on the merits by a court of competent jurisdiction is conclusive between the parties and constitutes an absolute bar to a subsequent action involving the same cause of action.",
-          "label": "exact",
-          "relevant": true
-        },
-        {
-          "text": "Once a case has been decided with finality, the same issues cannot be relitigated between the same parties under the doctrine of res judicata.",
-          "label": "paraphrase",
-          "relevant": true
-        },
-        {
-          "text": "Courts issue decisions after trial and submission of evidence.",
-          "label": "irrelevant",
-          "relevant": false
-        },
-        {
-          "text": "Legal systems value finality of judgments to prevent endless litigation and conflicting decisions.",
-          "label": "conceptual",
-          "relevant": true
-        }
-      ]
-    },
-    {
-      "query": "What is the Philippine Deposit Insurance Corporation (PDIC)?",
-      "passages": [
-        {
-          "text": "The PDIC is a government-owned corporation that protects depositors by providing insurance coverage for deposits in case of bank failures.",
-          "label": "exact",
-          "relevant": true
-        },
-        {
-          "text": "PDIC insures bank deposits up to a specified maximum amount and liquidates closed banks to protect depositors' interests.",
-          "label": "paraphrase",
-          "relevant": true
-        },
-        {
-          "text": "The Bangko Sentral ng Pilipinas regulates the banking industry.",
-          "label": "irrelevant",
-          "relevant": false
-        },
-        {
-          "text": "Financial safety nets promote public confidence in the banking system and economic stability.",
-          "label": "conceptual",
-          "relevant": true
-        }
-      ]
-    },
-    {
-      "query": "What is the 'writ of kalikasan' in Philippine environmental law?",
-      "passages": [
-        {
-          "text": "The writ of kalikasan is a legal remedy available to persons whose constitutional right to a balanced and healthful ecology is violated by an environmental damage of such magnitude that it threatens life, health, or property.",
-          "label": "exact",
-          "relevant": true
-        },
-        {
-          "text": "The writ of kalikasan allows citizens to seek court protection against large-scale environmental harm affecting communities.",
-          "label": "paraphrase",
-          "relevant": true
-        },
-        {
-          "text": "The Department of Environment and Natural Resources implements environmental policies.",
-          "label": "irrelevant",
-          "relevant": false
-        },
-        {
-          "text": "Special legal procedures exist to address environmental issues and enforce constitutional guarantees.",
-          "label": "conceptual",
-          "relevant": true
-        }
-      ]
-    },
-    {
-      "query": "What is 'warranty against eviction' in Philippine contracts of sale?",
-      "passages": [
-        {
-          "text": "Warranty against eviction is the seller's obligation to protect the buyer against legal claims of third persons that may disturb the buyer's peaceful possession of the thing sold.",
-          "label": "exact",
-          "relevant": true
-        },
-        {
-          "text": "In sales contracts, sellers guarantee that buyers will not face legal troubles from other parties claiming ownership of the purchased property.",
-          "label": "paraphrase",
-          "relevant": true
-        },
-        {
-          "text": "A deed of sale transfers ownership from seller to buyer.",
-          "label": "irrelevant",
-          "relevant": false
-        },
-        {
-          "text": "Contract law provides protections for purchasers against hidden defects in title.",
-          "label": "conceptual",
-          "relevant": true
-        }
-      ]
-    },
-    {
-      "query": "What is the 'Anti-Fencing Law' (PD 1612) in the Philippines?",
-      "passages": [
-        {
-          "text": "The Anti-Fencing Law penalizes the act of buying, selling, receiving, possessing, or in any manner dealing with articles or items that are known or should be known to have been derived from theft or robbery.",
-          "label": "exact",
-          "relevant": true
-        },
-        {
-          "text": "PD 1612 criminalizes the buying and selling of stolen goods to discourage theft by eliminating markets for stolen property.",
-          "label": "paraphrase",
-          "relevant": true
-        },
-        {
-          "text": "Theft is defined as the taking of personal property belonging to another.",
-          "label": "irrelevant",
-          "relevant": false
-        },
-        {
-          "text": "Criminal laws address not only direct perpetrators but also those who facilitate or profit from illicit activities.",
-          "label": "conceptual",
-          "relevant": true
-        }
-      ]
-    },
-    {
-      "query": "What is the principle of 'state immunity from suit' in the Philippines?",
-      "passages": [
-        {
-          "text": "State immunity from suit is the principle that the State cannot be sued without its consent, based on the sovereign authority of the state and public policy considerations.",
-          "label": "exact",
-          "relevant": true
-        },
-        {
-          "text": "The Philippine government is generally protected from lawsuits unless it expressly allows itself to be sued.",
-          "label": "paraphrase",
-          "relevant": true
-        },
-        {
-          "text": "The government can initiate legal actions against private entities.",
-          "label": "irrelevant",
-          "relevant": false
-        },
-        {
-          "text": "Sovereign immunity reflects the traditional view that subjecting governments to routine litigation may impair public service.",
-          "label": "conceptual",
-          "relevant": true
-        }
-      ]
-    },
-    {
-      "query": "What is the 'Blue Sky Law' in Philippine securities regulation?",
-      "passages": [
-        {
-          "text": "The Blue Sky Law refers to the Securities Regulation Code that requires registration and disclosure of securities offerings to protect investors from fraudulent investments.",
-          "label": "exact",
-          "relevant": true
-        },
-        {
-          "text": "Philippine securities laws prevent the selling of speculative or fraudulent investments by requiring proper registration and disclosure.",
-          "label": "paraphrase",
-          "relevant": true
-        },
-        {
-          "text": "The Philippine Stock Exchange is the country's primary securities trading market.",
-          "label": "irrelevant",
-          "relevant": false
-        },
-        {
-          "text": "Financial market regulations aim to promote transparency and investor protection.",
-          "label": "conceptual",
-          "relevant": true
-        }
-      ]
-    },
-    {
-      "query": "What is 'land reform' in Philippine agrarian law?",
-      "passages": [
-        {
-          "text": "Land reform is the comprehensive redistribution of agricultural lands to tenant-farmers and agricultural workers, coupled with support services to make the land productive.",
-          "label": "exact",
-          "relevant": true
-        },
-        {
-          "text": "Philippine land reform programs aim to break up large landholdings and distribute them to farmers who till the land.",
-          "label": "paraphrase",
-          "relevant": true
-        },
-        {
-          "text": "Agriculture is a major sector in the Philippine economy.",
-          "label": "irrelevant",
-          "relevant": false
-        },
-        {
-          "text": "Rural development policies address historical inequities in land ownership and access.",
-          "label": "conceptual",
-          "relevant": true
-        }
-      ]
-    },
-    {
-      "query": "What is the 'Omnibus Election Code' in the Philippines?",
-      "passages": [
-        {
-          "text": "The Omnibus Election Code is the comprehensive law governing the conduct of elections in the Philippines, including voter registration, candidacy requirements, campaign regulations, and election offenses.",
-          "label": "exact",
-          "relevant": true
-        },
-        {
-          "text": "Batas Pambansa 881 outlines the rules and procedures for Philippine elections, from filing of candidacies to proclamation of winners.",
-          "label": "paraphrase",
-          "relevant": true
-        },
-        {
-          "text": "The Philippine electoral system uses automated counting machines.",
-          "label": "irrelevant",
-          "relevant": false
-        },
-        {
-          "text": "Electoral laws establish frameworks for democratic processes and peaceful transfer of power.",
-          "label": "conceptual",
-          "relevant": true
-        }
-      ]
-    },
-    {
-      "query": "What is the concept of 'piercing the veil of corporate fiction' in Philippine corporation law?",
-      "passages": [
-        {
-          "text": "Piercing the veil of corporate fiction is a doctrine that disregards the separate legal personality of a corporation when it is used to defeat public convenience, justify wrong, protect fraud, or defend crime.",
-          "label": "exact",
-          "relevant": true
-        },
-        {
-          "text": "Courts may hold shareholders personally liable for corporate obligations when the corporate form is misused as a shield for fraudulent activities.",
-          "label": "paraphrase",
-          "relevant": true
-        },
-        {
-          "text": "Corporations have juridical personality separate from their shareholders.",
-          "label": "irrelevant",
-          "relevant": false
-        },
-        {
-          "text": "Legal doctrines prevent the abuse of corporate structures to evade liability or perpetrate injustice.",
-          "label": "conceptual",
-          "relevant": true
-        }
-      ]
-    },
-    {
-      "query": "What is the Anti-Carnapping Act of 1972 (RA 6539)?",
-      "passages": [
-        {
-          "text": "The Anti-Carnapping Act defines and penalizes the theft of motor vehicles, imposing heavier penalties when violence, intimidation, or force is used.",
-          "label": "exact",
-          "relevant": true
-        },
-        {
-          "text": "RA 6539 criminalizes the unlawful taking of motor vehicles, with graduated penalties depending on circumstances and resulting harm.",
-          "label": "paraphrase",
-          "relevant": true
-        },
-        {
-          "text": "The Land Transportation Office registers motor vehicles and issues driver's licenses.",
-          "label": "irrelevant",
-          "relevant": false
-        },
-        {
-          "text": "Special criminal laws address specific forms of property crimes that have significant social impact.",
-          "label": "conceptual",
-          "relevant": true
-        }
-      ]
-    },
-    {
-      "query": "What is the 'Revised Corporation Code' (RA 11232) of the Philippines?",
-      "passages": [
-        {
-          "text": "The Revised Corporation Code modernizes Philippine corporate law by allowing one-person corporations, perpetual corporate existence, and electronic filing, among other innovations.",
-          "label": "exact",
-          "relevant": true
-        },
-        {
-          "text": "RA 11232 updated the Corporation Code to improve ease of doing business and align with global corporate governance standards.",
-          "label": "paraphrase",
-          "relevant": true
-        },
-        {
-          "text": "Businesses must register with appropriate government agencies.",
-          "label": "irrelevant",
-          "relevant": false
-        },
-        {
-          "text": "Corporate laws evolve to accommodate changing business environments and technological advancements.",
-          "label": "conceptual",
-          "relevant": true
-        }
-      ]
-    },
-    {
-      "query": "What is the concept of 'public domain' in Philippine property law?",
-      "passages": [
-        {
-          "text": "Public domain refers to lands and resources owned by the State that cannot be alienated and are outside the commerce of man, including forests, minerals, wildlife, and certain bodies of water.",
-          "label": "exact",
-          "relevant": true
-        },
-        {
-          "text": "In Philippine law, public domain properties belong to the government and generally cannot be privately owned or sold.",
-          "label": "paraphrase",
-          "relevant": true
-        },
-        {
-          "text": "Private lands can be registered under the Torrens system.",
-          "label": "irrelevant",
-          "relevant": false
-        },
-        {
-          "text": "Natural resources are subject to special legal classifications to ensure their preservation for future generations.",
-          "label": "conceptual",
-          "relevant": true
-        }
-      ]
-    },
-    {
-      "query": "What is the 'Solo Parents' Welfare Act' (RA 8972) in the Philippines?",
-      "passages": [
-        {
-          "text": "The Solo Parents' Welfare Act provides comprehensive support programs and benefits for single parents, including flexible work arrangements, parental leave, and educational benefits for their children.",
-          "label": "exact",
-          "relevant": true
-        },
-        {
-          "text": "RA 8972 establishes social protection and assistance for single mothers and fathers facing the challenges of raising children alone.",
-          "label": "paraphrase",
-          "relevant": true
-        },
-        {
-          "text": "The Department of Social Welfare and Development implements social service programs.",
-          "label": "irrelevant",
-          "relevant": false
-        },
-        {
-          "text": "Social legislation addresses the needs of vulnerable family structures and promotes child welfare.",
-          "label": "conceptual",
-          "relevant": true
-        }
-      ]
-    },
-    {
-      "query": "What is the purpose of the Writ of Amparo in the Philippines?",
-      "passages": [
-          {
-              "text": "The Writ of Amparo is a legal remedy designed to protect individuals from threats to their life, liberty, and security, particularly in cases of extrajudicial killings and enforced disappearances.",
-              "label": "exact",
-              "relevant": true
-          },
-          {
-              "text": "In the Philippines, the Writ of Amparo serves as a safeguard for individuals facing threats to their fundamental rights, especially in situations involving state agents.",
-              "label": "paraphrase",
-              "relevant": true
-          },
-          {
-              "text": "The Writ of Habeas Corpus is a legal action that requires a person under arrest to be brought before a judge or court.",
-              "label": "irrelevant",
-              "relevant": false
-          },
-          {
-              "text": "Legal remedies are available to individuals whose constitutional rights have been violated.",
-              "label": "conceptual",
-              "relevant": true
-          }
-      ]
-    },
-    {
-        "query": "Define 'force majeure' under Philippine law.",
-        "passages": [
-            {
-                "text": "Force majeure refers to events beyond the control of parties, such as natural disasters, which prevent the fulfillment of contractual obligations.",
-                "label": "exact",
-                "relevant": true
-            },
-            {
-                "text": "Unforeseen events like typhoons or earthquakes that hinder contract performance are considered force majeure in Philippine jurisprudence.",
-                "label": "paraphrase",
-                "relevant": true
-            },
-            {
-                "text": "Breach of contract occurs when one party fails to fulfill their obligations.",
-                "label": "irrelevant",
-                "relevant": false
-            },
-            {
-                "text": "Contracts may include clauses that address unforeseen events affecting obligations.",
-                "label": "conceptual",
-                "relevant": true
-            }
-        ]
-    },
-    {
-        "query": "What rights are protected under the Indigenous Peoples' Rights Act (IPRA)?",
-        "passages": [
-            {
-                "text": "The IPRA protects the rights of Indigenous Cultural Communities/Indigenous Peoples to their ancestral domains, self-governance, social justice, and cultural integrity.",
-                "label": "exact",
-                "relevant": true
-            },
-            {
-                "text": "Under IPRA, indigenous peoples are granted rights to their ancestral lands and the preservation of their cultural practices.",
-                "label": "paraphrase",
-                "relevant": true
-            },
-            {
-                "text": "The Labor Code governs employment practices and labor relations in the Philippines.",
-                "label": "irrelevant",
-                "relevant": false
-            },
-            {
-                "text": "Laws exist to ensure the protection and promotion of indigenous communities' heritage and traditions.",
-                "label": "conceptual",
-                "relevant": true
-            }
-        ]
-    },
-    {
-        "query": "What is the principle of 'parens patriae' in Philippine law?",
-        "passages": [
-            {
-                "text": "Parens patriae is the doctrine that allows the state to act as guardian for those unable to care for themselves, such as minors or persons with disabilities.",
-                "label": "exact",
-                "relevant": true
-            },
-            {
-                "text": "The state has the authority to protect individuals who cannot protect themselves under the concept of parens patriae.",
-                "label": "paraphrase",
-                "relevant": true
-            },
-            {
-                "text": "The state has the power to regulate taxes and public spending.",
-                "label": "irrelevant",
-                "relevant": false
-            },
-            {
-                "text": "Minors and vulnerable individuals are provided special legal protections.",
-                "label": "conceptual",
-                "relevant": true
-            }
-        ]
-    },
-    {
-        "query": "What does 'double jeopardy' mean in the context of criminal law?",
-        "passages": [
-            {
-                "text": "Double jeopardy protects a person from being prosecuted twice for the same offense after acquittal or conviction.",
-                "label": "exact",
-                "relevant": true
-            },
-            {
-                "text": "A person cannot be tried again for a crime for which they were already acquitted or convicted, which is known as double jeopardy.",
-                "label": "paraphrase",
-                "relevant": true
-            },
-            {
-                "text": "Criminal cases involve the state prosecuting a person for an alleged offense.",
-                "label": "irrelevant",
-                "relevant": false
-            },
-            {
-                "text": "The legal system includes protections against repeated prosecution.",
-                "label": "conceptual",
-                "relevant": true
-            }
-        ]
-    },
-    {
-        "query": "What is the role of the Sandiganbayan in the Philippine judiciary?",
-        "passages": [
-            {
-                "text": "The Sandiganbayan is a special court in the Philippines that hears cases involving graft and corruption by public officials.",
-                "label": "exact",
-                "relevant": true
-            },
-            {
-                "text": "Cases involving corruption and misuse of government funds by public officials are handled by the Sandiganbayan.",
-                "label": "paraphrase",
-                "relevant": true
-            },
-            {
-                "text": "The Supreme Court is the highest judicial body in the country.",
-                "label": "irrelevant",
-                "relevant": false
-            },
-            {
-                "text": "There are special courts in the Philippines assigned to try specific categories of cases.",
-                "label": "conceptual",
-                "relevant": true
-            }
-        ]
-    },
-    {
-        "query": "What is the doctrine of exhaustion of administrative remedies?",
-        "passages": [
-            {
-                "text": "The doctrine of exhaustion of administrative remedies requires a party to seek relief from administrative bodies before going to court.",
-                "label": "exact",
-                "relevant": true
-            },
-            {
-                "text": "Before filing a case in court, a person must first utilize the remedies available within the concerned administrative agency.",
-                "label": "paraphrase",
-                "relevant": true
-            },
-            {
-                "text": "A court can review the decisions of government agencies.",
-                "label": "irrelevant",
-                "relevant": false
-            },
-            {
-                "text": "Administrative bodies are empowered to resolve disputes within their specialized jurisdictions.",
-                "label": "conceptual",
-                "relevant": true
-            }
-        ]
-    },
-    {
-        "query": "Define 'agrarian reform' in the Philippine context.",
-        "passages": [
-            {
-                "text": "Agrarian reform refers to the redistribution of agricultural land to farmers and farmworkers, aiming to promote social justice and industrialization.",
-                "label": "exact",
-                "relevant": true
-            },
-            {
-                "text": "In the Philippines, agrarian reform is a government initiative to transfer land ownership from landlords to tenants and farmers.",
-                "label": "paraphrase",
-                "relevant": true
-            },
-            {
-                "text": "Farming is a primary source of livelihood in rural areas.",
-                "label": "irrelevant",
-                "relevant": false
-            },
-            {
-                "text": "Programs exist to ensure equitable land distribution and uplift rural communities.",
-                "label": "conceptual",
-                "relevant": true
-            }
-        ]
-    },
-    {
-        "query": "What is the Anti-Violence Against Women and Their Children Act (RA 9262)?",
-        "passages": [
-            {
-                "text": "RA 9262 is a Philippine law that defines and penalizes violence against women and their children, including physical, psychological, and economic abuse.",
-                "label": "exact",
-                "relevant": true
-            },
-            {
-                "text": "The Anti-VAWC Act protects women and children from various forms of abuse committed by partners or family members.",
-                "label": "paraphrase",
-                "relevant": true
-            },
-            {
-                "text": "The Child and Youth Welfare Code protects the rights of minors.",
-                "label": "irrelevant",
-                "relevant": false
-            },
-            {
-                "text": "Philippine laws aim to safeguard vulnerable groups from domestic violence.",
-                "label": "conceptual",
-                "relevant": true
-            }
-        ]
-    },
-    {
-      "query": "What is the purpose of the Katarungang Pambarangay system?",
-      "passages": [
-        {
-          "text": "The Katarungang Pambarangay system is a local justice system that aims to amicably settle disputes at the barangay level before they escalate to formal courts.",
-          "label": "exact",
-          "relevant": true
-        },
-        {
-          "text": "Barangay justice promotes community-based resolution of disputes through conciliation and mediation.",
-          "label": "paraphrase",
-          "relevant": true
-        },
-        {
-          "text": "The Regional Trial Court handles serious civil and criminal cases.",
-          "label": "irrelevant",
-          "relevant": false
-        },
-        {
-          "text": "Local governments have mechanisms to resolve minor conflicts within their jurisdiction.",
-          "label": "conceptual",
-          "relevant": true
-        }
-      ]
-    },
-    {
-      "query": "What is the doctrine of primary jurisdiction in administrative law?",
-      "passages": [
-        {
-          "text": "The doctrine of primary jurisdiction holds that courts should defer to administrative agencies when a case requires the agency’s specialized expertise.",
-          "label": "exact",
-          "relevant": true
-        },
-        {
-          "text": "When technical issues are involved, courts usually wait for the relevant agency to make initial findings.",
-          "label": "paraphrase",
-          "relevant": true
-        },
-        {
-          "text": "Administrative agencies are part of the executive branch.",
-          "label": "irrelevant",
-          "relevant": false
-        },
-        {
-          "text": "Some disputes are better handled by expert government bodies before judicial intervention.",
-          "label": "conceptual",
-          "relevant": true
-        }
-      ]
-    },
-    {
-      "query": "Explain the concept of 'just compensation' in expropriation cases.",
-      "passages": [
-        {
-          "text": "Just compensation refers to the fair value of property taken by the government for public use, ensuring that the owner is not left at a disadvantage.",
-          "label": "exact",
-          "relevant": true
-        },
-        {
-          "text": "In expropriation, property owners must be paid fairly for the land acquired by the government.",
-          "label": "paraphrase",
-          "relevant": true
-        },
-        {
-          "text": "The state may acquire land for public infrastructure projects.",
-          "label": "irrelevant",
-          "relevant": false
-        },
-        {
-          "text": "Constitutional rights protect property owners from unjust land seizures.",
-          "label": "conceptual",
-          "relevant": true
-        }
-      ]
-    },
-    {
-      "query": "What is the Anti-Terrorism Act of 2020 (RA 11479)?",
-      "passages": [
-        {
-          "text": "RA 11479 is a law enacted to strengthen the Philippines' legal framework against terrorism, including provisions for extended detention and surveillance.",
-          "label": "exact",
-          "relevant": true
-        },
-        {
-          "text": "The Anti-Terrorism Act allows law enforcers to arrest and monitor individuals suspected of terrorist acts.",
-          "label": "paraphrase",
-          "relevant": true
-        },
-        {
-          "text": "The Dangerous Drugs Act penalizes possession and use of illegal drugs.",
-          "label": "irrelevant",
-          "relevant": false
-        },
-        {
-          "text": "National security laws grant the government broader powers to combat terrorism.",
-          "label": "conceptual",
-          "relevant": true
-        }
-      ]
-    },
-    {
-      "query": "What is the legal implication of 'informed consent' in medical treatment?",
-      "passages": [
-        {
-          "text": "Informed consent means a patient agrees to a medical procedure after understanding its risks, benefits, and alternatives.",
-          "label": "exact",
-          "relevant": true
-        },
-        {
-          "text": "Doctors must ensure that patients voluntarily agree to treatment based on sufficient information.",
-          "label": "paraphrase",
-          "relevant": true
-        },
-        {
-          "text": "Healthcare professionals are licensed by the Professional Regulation Commission.",
-          "label": "irrelevant",
-          "relevant": false
-        },
-        {
-          "text": "Medical ethics require transparency and voluntary participation in procedures.",
-          "label": "conceptual",
-          "relevant": true
-        }
-      ]
-    },
-    {
-      "query": "What is the role of the Civil Service Commission (CSC)?",
-      "passages": [
-        {
-          "text": "The Civil Service Commission oversees the integrity and efficiency of the civil service and ensures merit-based appointments in government.",
-          "label": "exact",
-          "relevant": true
-        },
-        {
-          "text": "CSC is responsible for ensuring fair hiring and disciplinary standards for government employees.",
-          "label": "paraphrase",
-          "relevant": true
-        },
-        {
-          "text": "The Department of Health handles national health policies.",
-          "label": "irrelevant",
-          "relevant": false
-        },
-        {
-          "text": "Government institutions are expected to uphold professionalism and accountability in public service.",
-          "label": "conceptual",
-          "relevant": true
-        }
-      ]
-    },
-    {
-      "query": "What is the 'Comprehensive Dangerous Drugs Act' (RA 9165) of the Philippines?",
-      "passages": [
-        {
-          "text": "The Comprehensive Dangerous Drugs Act criminalizes the importation, sale, possession, and use of illegal drugs, establishing rehabilitation programs and a national drug prevention campaign.",
-          "label": "exact",
-          "relevant": true
-        },
-        {
-          "text": "RA 9165 penalizes drug-related offenses and provides for treatment and rehabilitation of drug dependents alongside law enforcement measures.",
-          "label": "paraphrase",
-          "relevant": true
-        },
-        {
-          "text": "The Philippine Drug Enforcement Agency is the lead agency in anti-drug operations.",
-          "label": "irrelevant",
-          "relevant": false
-        },
-        {
-          "text": "Public health and safety laws address substance abuse through both punitive and rehabilitative approaches.",
-          "label": "conceptual",
-          "relevant": true
-        }
-      ]
-    }
-  ]  
+  {
+    "query": "What is the function of the Presidential Electoral Tribunal (PET)?",
+    "passages": [
+      {
+        "text": "The Presidential Electoral Tribunal is a special tribunal composed of Supreme Court Justices that resolves electoral protests related to presidential and vice-presidential elections.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "The PET handles disputes about the outcome of elections for the highest executive positions in the Philippines.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "The Commission on Elections oversees the conduct of national and local elections.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Electoral disputes require specialized forums to ensure the integrity of democratic processes.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "The Department of Education sets guidelines for the school curriculum.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "The National Economic and Development Authority evaluates socioeconomic plans and programs.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is 'estafa' under Philippine criminal law?",
+    "passages": [
+      {
+        "text": "Estafa is a crime involving deceit or fraud where one party causes damage to another by abusing confidence or through fraudulent means.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "In Philippine law, estafa occurs when a person defrauds another of money or property through misrepresentation or deception.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "Robbery is the taking of personal property through violence or intimidation.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "The Revised Penal Code penalizes various forms of fraudulent activities that cause financial harm.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "Trespassing is an offense that involves entering someone’s property without permission.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "The Public Attorney's Office provides free legal services to indigent clients.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is the principle of 'in dubio pro reo' in Philippine jurisprudence?",
+    "passages": [
+      {
+        "text": "In dubio pro reo is a legal principle stating that in case of doubt, courts must rule in favor of the accused, embodying the presumption of innocence.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "When evidence is insufficient to establish guilt beyond reasonable doubt, the accused must be acquitted under the principle of in dubio pro reo.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "The prosecutor has the burden of proving the crime beyond reasonable doubt.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Criminal justice systems incorporate safeguards to protect potentially innocent individuals from wrongful conviction.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "Small claims courts handle minor civil disputes with simplified procedures.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "The Securities and Exchange Commission regulates corporations and securities in the Philippines.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is the concept of 'reserved powers' under the Local Government Code?",
+    "passages": [
+      {
+        "text": "Reserved powers are those authorities and functions retained by the national government even after devolution under the Local Government Code.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "Under the Local Government Code, certain powers remain with the central government despite decentralization to local units.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "Local government units include provinces, cities, municipalities, and barangays.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "The distribution of powers between national and local authorities defines the Philippine governance structure.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "Barangay elections are held every three years as mandated by law.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "The Department of Health manages public health initiatives across the country.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is 'litis pendentia' as a ground for dismissal of a case?",
+    "passages": [
+      {
+        "text": "Litis pendentia is a ground for dismissal when there is another pending action involving the same parties, same causes of action, and same reliefs sought.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "A case may be dismissed due to litis pendentia if an identical lawsuit is already being heard by another court.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "The rules of court establish procedures for filing pleadings and motions.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Legal procedures exist to prevent duplicate litigation and conflicting judgments.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "Administrative agencies sometimes resolve disputes outside of the judiciary.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Environmental laws regulate the use and conservation of natural resources.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is the Cybercrime Prevention Act of 2012 (RA 10175)?",
+    "passages": [
+      {
+        "text": "RA 10175 is a law that defines and penalizes cybercrimes in the Philippines, including illegal access, data interference, and cyber libel.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "The Cybercrime Prevention Act criminalizes online offenses and provides mechanisms for investigation and prosecution of digital crimes.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "The Department of Information and Communications Technology oversees the country's ICT development.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Legal frameworks have evolved to address technological developments and their implications for criminal behavior.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "The National Telecommunications Commission regulates broadcast and telecommunications services.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Internet cafes are still common in some parts of the Philippines, especially in urban poor areas.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is the concept of 'psychological incapacity' in Philippine family law?",
+    "passages": [
+      {
+        "text": "Psychological incapacity refers to a serious psychological condition that renders a spouse incapable of fulfilling essential marital obligations, serving as a ground for declaration of nullity of marriage.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "In Philippine family law, a marriage may be declared void if one spouse is found to have psychological incapacity that prevents them from performing marital duties.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "Legal separation allows spouses to live separately without dissolving the marriage.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "The Family Code provides means to address fundamentally flawed marital relationships.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "Civil annulment requires a petition to be filed in court and can take several years to resolve.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Child custody cases are resolved based on the best interest of the child.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is the Anti-Money Laundering Act (AMLA) in the Philippines?",
+    "passages": [
+      {
+        "text": "The Anti-Money Laundering Act criminalizes the process of concealing or disguising the proceeds of unlawful activities to make them appear to have originated from legitimate sources.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "AMLA establishes mechanisms to detect and prevent the conversion of illegally obtained funds into seemingly legal assets.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "Banks are required to maintain records of their transactions.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Financial regulations aim to prevent criminal proceeds from entering the legitimate economy.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "The Bangko Sentral ng Pilipinas sets monetary policies for financial stability.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Foreign exchange markets are influenced by economic and political factors.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is 'separation of powers' in the Philippine government?",
+    "passages": [
+      {
+        "text": "Separation of powers is a constitutional principle that divides government authority among three branches: executive, legislative, and judicial, with each serving as a check on the others.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "The Philippine government structure distributes powers among different branches to prevent concentration of authority and ensure checks and balances.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "The President serves as both head of state and head of government.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Constitutional democracies establish mechanisms to prevent abuse of power and protect democratic institutions.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "The Supreme Court of the Philippines is composed of a Chief Justice and Associate Justices.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Local governments are organized into provinces, cities, municipalities, and barangays.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is the Philippine Competition Act (RA 10667)?",
+    "passages": [
+      {
+        "text": "The Philippine Competition Act aims to protect consumer welfare by promoting competitive markets and prohibiting anti-competitive agreements, abuse of dominant position, and anti-competitive mergers.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "RA 10667 establishes the Philippine Competition Commission to prevent monopolies and ensure fair market competition.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "The Securities and Exchange Commission regulates the corporate sector and capital markets.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Economic regulations foster competitive business environments that benefit consumers and the economy.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "Tariff rates on imported goods are adjusted periodically through executive orders.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Business name registration is handled by the Department of Trade and Industry.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is the concept of 'intellectual property rights' under Philippine law?",
+    "passages": [
+      {
+        "text": "Intellectual property rights are legal protections granted to creators and inventors for their creative works and innovations, including copyrights, patents, and trademarks.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "Philippine IP laws protect original works, inventions, and distinctive marks used in commerce from unauthorized use or reproduction.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "The Intellectual Property Office of the Philippines processes applications for IP registration.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Legal systems incentivize innovation by providing creators with exclusive rights to their intellectual creations.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "The Department of Trade and Industry handles business name registrations in the Philippines.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Universities often have offices dedicated to technology transfer and patent filing.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is the principle of 'stare decisis' in Philippine jurisprudence?",
+    "passages": [
+      {
+        "text": "Stare decisis is the principle that courts follow precedents set by higher courts or their own previous decisions, ensuring consistency and predictability in the legal system.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "Lower courts are bound by the decisions of the Supreme Court under the doctrine of stare decisis.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "The Supreme Court has administrative supervision over all courts.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Judicial systems rely on established case law to guide future rulings on similar issues.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "The Rules of Court govern civil and criminal procedure in Philippine courts.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "The Judicial and Bar Council screens applicants for judicial positions.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is 'bail' in Philippine criminal procedure?",
+    "passages": [
+      {
+        "text": "Bail is the security given for the release of a person in custody, conditioned upon the person's appearance in court when required.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "In Philippine criminal procedure, bail allows temporary freedom for the accused while their case is being heard by posting security.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "Criminal cases are initiated through the filing of a complaint or information.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Pretrial release mechanisms balance the presumption of innocence with ensuring court appearance.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "Court hearings are generally open to the public unless otherwise ordered.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "The Philippine National Police is responsible for maintaining peace and order.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is the Anti-Hazing Law (RA 8049) in the Philippines?",
+    "passages": [
+      {
+        "text": "The Anti-Hazing Law prohibits hazing and regulates initiation rites of fraternities, sororities, and organizations, imposing penalties for violations resulting in injury or death.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "RA 8049 criminalizes dangerous initiation practices that cause physical or psychological harm to students joining organizations.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "Educational institutions have disciplinary boards that handle student misconduct.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Laws protect young people from harmful traditions that may endanger their wellbeing.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "The Department of Education implements basic education policies in the Philippines.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "School organizations are often required to register with student affairs offices.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is the principle of 'eminent domain' in Philippine property law?",
+    "passages": [
+      {
+        "text": "Eminent domain is the inherent power of the state to take private property for public use upon payment of just compensation.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "The government's authority to expropriate private land for public purposes, subject to fair payment, is known as eminent domain.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "Land titles are registered with the Registry of Deeds.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Constitutional provisions balance private property rights with public interest needs.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "The Land Registration Authority oversees the country’s land title system.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Real estate transactions are subject to documentary stamp taxes.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is the 'Rule on DNA Evidence' in Philippine courts?",
+    "passages": [
+      {
+        "text": "The Rule on DNA Evidence provides guidelines for the admissibility, collection, handling, and appreciation of DNA evidence in civil and criminal cases.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "Philippine courts follow specific procedures for accepting and evaluating genetic test results as evidence.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "The National Bureau of Investigation conducts forensic examinations.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Modern scientific methods have been integrated into legal procedures to improve accuracy in fact-finding.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "The Philippine Statistics Authority conducts national censuses and surveys.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Hospitals require patients to sign consent forms before medical procedures.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is the concept of 'visitorial power' over corporations?",
+    "passages": [
+      {
+        "text": "Visitorial power is the authority of regulatory agencies to examine the operations, books, and records of corporations to ensure compliance with laws and regulations.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "Government regulators can inspect and investigate corporate activities through their visitorial powers.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "Corporations are required to submit annual financial statements.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Regulatory frameworks enable government oversight of business entities to protect public interest.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "Stockholders typically meet annually to vote on key corporate matters.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Business permits are issued by local government units to operate legally.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is 'legal education' requirement for lawyers in the Philippines?",
+    "passages": [
+      {
+        "text": "Legal education in the Philippines requires completion of a four-year Bachelor of Laws degree after obtaining an undergraduate degree, followed by passing the Bar examinations.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "To become a lawyer in the Philippines, one must graduate from an accredited law school and pass the Bar exams administered by the Supreme Court.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "The Integrated Bar of the Philippines is the national organization of lawyers.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Professional licensing systems ensure competent and qualified practitioners in specialized fields.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "Notarial services require a commission from the court.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Continuing legal education is mandatory for practicing lawyers to stay updated with developments in the law.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is the concept of 'presidential immunity' in Philippine law?",
+    "passages": [
+      {
+        "text": "Presidential immunity is the legal doctrine that protects a sitting President from lawsuits for official acts during their term, though not necessarily for acts done before or after their presidency.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "While in office, the Philippine President enjoys immunity from certain legal proceedings related to their official functions.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "The President appoints members of the Cabinet with the Commission on Appointments' consent.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Executive privileges aim to ensure the effective functioning of the highest office without undue judicial interference.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "The Vice President can take over the presidency in cases of permanent vacancy.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Cabinet meetings are typically held in Malacañang Palace.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is the Anti-Torture Act of 2009 (RA 9745)?",
+    "passages": [
+      {
+        "text": "The Anti-Torture Act criminalizes acts of torture and other cruel, inhuman, and degrading treatment or punishment, establishing liability for perpetrators, particularly state agents.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "RA 9745 prohibits physical and mental torture and provides remedies and protection for victims.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "The Philippine National Police is responsible for maintaining peace and order.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Human rights laws protect individuals from abuses, especially those committed under color of authority.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "The Commission on Human Rights monitors compliance with human rights standards.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "The Department of Justice oversees the National Prosecution Service.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is the doctrine of 'res judicata' in Philippine civil procedure?",
+    "passages": [
+      {
+        "text": "Res judicata is the principle that a final judgment on the merits by a court of competent jurisdiction is conclusive between the parties and constitutes an absolute bar to a subsequent action involving the same cause of action.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "Once a case has been decided with finality, the same issues cannot be relitigated between the same parties under the doctrine of res judicata.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "Courts issue decisions after trial and submission of evidence.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Legal systems value finality of judgments to prevent endless litigation and conflicting decisions.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "Civil cases may involve claims for damages, specific performance, or injunction.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Court fees are assessed based on the nature and value of the claim filed.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is the Philippine Deposit Insurance Corporation (PDIC)?",
+    "passages": [
+      {
+        "text": "The PDIC is a government-owned corporation that protects depositors by providing insurance coverage for deposits in case of bank failures.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "PDIC insures bank deposits up to a specified maximum amount and liquidates closed banks to protect depositors' interests.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "The Bangko Sentral ng Pilipinas regulates the banking industry.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Financial safety nets promote public confidence in the banking system and economic stability.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "The Securities and Exchange Commission oversees corporate registration and stock market activities.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Monetary policies control inflation and stabilize currency value.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is the 'writ of kalikasan' in Philippine environmental law?",
+    "passages": [
+      {
+        "text": "The writ of kalikasan is a legal remedy available to persons whose constitutional right to a balanced and healthful ecology is violated by an environmental damage of such magnitude that it threatens life, health, or property.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "The writ of kalikasan allows citizens to seek court protection against large-scale environmental harm affecting communities.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "The Department of Environment and Natural Resources implements environmental policies.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Special legal procedures exist to address environmental issues and enforce constitutional guarantees.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "The Securities Regulation Code governs the registration and sale of securities in the Philippines.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Barangay elections are conducted every few years as part of local governance.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is 'warranty against eviction' in Philippine contracts of sale?",
+    "passages": [
+      {
+        "text": "Warranty against eviction is the seller's obligation to protect the buyer against legal claims of third persons that may disturb the buyer's peaceful possession of the thing sold.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "In sales contracts, sellers guarantee that buyers will not face legal troubles from other parties claiming ownership of the purchased property.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "A deed of sale transfers ownership from seller to buyer.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Contract law provides protections for purchasers against hidden defects in title.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "Real estate taxes must be paid annually by property owners.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "The Land Transportation Office handles vehicle registration and licensing.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is the 'Anti-Fencing Law' (PD 1612) in the Philippines?",
+    "passages": [
+      {
+        "text": "The Anti-Fencing Law penalizes the act of buying, selling, receiving, possessing, or in any manner dealing with articles or items that are known or should be known to have been derived from theft or robbery.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "PD 1612 criminalizes the buying and selling of stolen goods to discourage theft by eliminating markets for stolen property.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "Theft is defined as the taking of personal property belonging to another.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Criminal laws address not only direct perpetrators but also those who facilitate or profit from illicit activities.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "Local governments are responsible for issuing business permits.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "The Commission on Human Rights investigates violations of civil liberties.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is the principle of 'state immunity from suit' in the Philippines?",
+    "passages": [
+      {
+        "text": "State immunity from suit is the principle that the State cannot be sued without its consent, based on the sovereign authority of the state and public policy considerations.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "The Philippine government is generally protected from lawsuits unless it expressly allows itself to be sued.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "The government can initiate legal actions against private entities.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Sovereign immunity reflects the traditional view that subjecting governments to routine litigation may impair public service.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "The Public Attorney’s Office provides legal aid to indigent litigants.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Local autonomy allows municipalities to govern independently within legal bounds.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is the 'Blue Sky Law' in Philippine securities regulation?",
+    "passages": [
+      {
+        "text": "The Blue Sky Law refers to the Securities Regulation Code that requires registration and disclosure of securities offerings to protect investors from fraudulent investments.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "Philippine securities laws prevent the selling of speculative or fraudulent investments by requiring proper registration and disclosure.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "The Philippine Stock Exchange is the country's primary securities trading market.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Financial market regulations aim to promote transparency and investor protection.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "The Department of Trade and Industry oversees consumer protection and business development.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Currency exchange rates fluctuate based on global economic indicators.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is 'land reform' in Philippine agrarian law?",
+    "passages": [
+      {
+        "text": "Land reform is the comprehensive redistribution of agricultural lands to tenant-farmers and agricultural workers, coupled with support services to make the land productive.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "Philippine land reform programs aim to break up large landholdings and distribute them to farmers who till the land.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "Agriculture is a major sector in the Philippine economy.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Rural development policies address historical inequities in land ownership and access.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "The Department of Tourism promotes the Philippines as a travel destination.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Export restrictions are sometimes applied to protect local agricultural producers.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is the 'Omnibus Election Code' in the Philippines?",
+    "passages": [
+      {
+        "text": "The Omnibus Election Code is the comprehensive law governing the conduct of elections in the Philippines, including voter registration, candidacy requirements, campaign regulations, and election offenses.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "Batas Pambansa 881 outlines the rules and procedures for Philippine elections, from filing of candidacies to proclamation of winners.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "The Philippine electoral system uses automated counting machines.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Electoral laws establish frameworks for democratic processes and peaceful transfer of power.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "Barangay officials serve three-year terms and are elected by residents.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "The Philippine Constitution provides for a bicameral legislature composed of the Senate and House of Representatives.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is the concept of 'piercing the veil of corporate fiction' in Philippine corporation law?",
+    "passages": [
+      {
+        "text": "Piercing the veil of corporate fiction is a doctrine that disregards the separate legal personality of a corporation when it is used to defeat public convenience, justify wrong, protect fraud, or defend crime.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "Courts may hold shareholders personally liable for corporate obligations when the corporate form is misused as a shield for fraudulent activities.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "Corporations have juridical personality separate from their shareholders.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Legal doctrines prevent the abuse of corporate structures to evade liability or perpetrate injustice.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "The Bureau of Internal Revenue administers tax collection and enforcement.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Partnerships and cooperatives also have distinct legal personalities in Philippine law.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is the Anti-Carnapping Act of 1972 (RA 6539)?",
+    "passages": [
+      {
+        "text": "The Anti-Carnapping Act defines and penalizes the theft of motor vehicles, imposing heavier penalties when violence, intimidation, or force is used.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "RA 6539 criminalizes the unlawful taking of motor vehicles, with graduated penalties depending on circumstances and resulting harm.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "The Land Transportation Office registers motor vehicles and issues driver's licenses.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Special criminal laws address specific forms of property crimes that have significant social impact.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "Traffic rules are enforced by the Metropolitan Manila Development Authority.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Motor vehicle insurance is required for registration renewal.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is the 'Revised Corporation Code' (RA 11232) of the Philippines?",
+    "passages": [
+      {
+        "text": "The Revised Corporation Code modernizes Philippine corporate law by allowing one-person corporations, perpetual corporate existence, and electronic filing, among other innovations.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "RA 11232 updated the Corporation Code to improve ease of doing business and align with global corporate governance standards.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "Businesses must register with appropriate government agencies.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Corporate laws evolve to accommodate changing business environments and technological advancements.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "Barangay micro business enterprises receive special tax incentives.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Tourism zones are established to boost economic growth in local communities.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is the concept of 'public domain' in Philippine property law?",
+    "passages": [
+      {
+        "text": "Public domain refers to lands and resources owned by the State that cannot be alienated and are outside the commerce of man, including forests, minerals, wildlife, and certain bodies of water.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "In Philippine law, public domain properties belong to the government and generally cannot be privately owned or sold.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "Private lands can be registered under the Torrens system.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Natural resources are subject to special legal classifications to ensure their preservation for future generations.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "Mining companies must obtain permits from the government to operate.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "The Department of Agriculture promotes productivity in rural farming communities.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is the 'Solo Parents' Welfare Act' (RA 8972) in the Philippines?",
+    "passages": [
+      {
+        "text": "The Solo Parents' Welfare Act provides comprehensive support programs and benefits for single parents, including flexible work arrangements, parental leave, and educational benefits for their children.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "RA 8972 establishes social protection and assistance for single mothers and fathers facing the challenges of raising children alone.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "The Department of Social Welfare and Development implements social service programs.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Social legislation addresses the needs of vulnerable family structures and promotes child welfare.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "PhilHealth provides health insurance coverage to qualified beneficiaries.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Community-based programs promote literacy and early childhood education.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is the purpose of the Writ of Amparo in the Philippines?",
+    "passages": [
+      {
+        "text": "The Writ of Amparo is a legal remedy designed to protect individuals from threats to their life, liberty, and security, particularly in cases of extrajudicial killings and enforced disappearances.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "In the Philippines, the Writ of Amparo serves as a safeguard for individuals facing threats to their fundamental rights, especially in situations involving state agents.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "The Writ of Habeas Corpus is a legal action that requires a person under arrest to be brought before a judge or court.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Legal remedies are available to individuals whose constitutional rights have been violated.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "The Commission on Human Rights monitors human rights violations in the country.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Civil society organizations often conduct campaigns for justice and accountability.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "Define 'force majeure' under Philippine law.",
+    "passages": [
+      {
+        "text": "Force majeure refers to events beyond the control of parties, such as natural disasters, which prevent the fulfillment of contractual obligations.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "Unforeseen events like typhoons or earthquakes that hinder contract performance are considered force majeure in Philippine jurisprudence.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "Breach of contract occurs when one party fails to fulfill their obligations.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Contracts may include clauses that address unforeseen events affecting obligations.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "Disputes over contract interpretation are resolved by courts or arbitral tribunals.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Parties may renegotiate contract terms when economic conditions drastically change.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What rights are protected under the Indigenous Peoples' Rights Act (IPRA)?",
+    "passages": [
+      {
+        "text": "The IPRA protects the rights of Indigenous Cultural Communities/Indigenous Peoples to their ancestral domains, self-governance, social justice, and cultural integrity.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "Under IPRA, indigenous peoples are granted rights to their ancestral lands and the preservation of their cultural practices.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "The Labor Code governs employment practices and labor relations in the Philippines.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Laws exist to ensure the protection and promotion of indigenous communities' heritage and traditions.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "The Securities and Exchange Commission oversees corporations and the securities market.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Tax incentives are granted to businesses operating in economic zones.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is the principle of 'parens patriae' in Philippine law?",
+    "passages": [
+      {
+        "text": "Parens patriae is the doctrine that allows the state to act as guardian for those unable to care for themselves, such as minors or persons with disabilities.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "The state has the authority to protect individuals who cannot protect themselves under the concept of parens patriae.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "The state has the power to regulate taxes and public spending.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Minors and vulnerable individuals are provided special legal protections.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "The Department of Foreign Affairs handles diplomatic relations and overseas services.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Local governments are required to allocate funds for disaster preparedness.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What does 'double jeopardy' mean in the context of criminal law?",
+    "passages": [
+      {
+        "text": "Double jeopardy protects a person from being prosecuted twice for the same offense after acquittal or conviction.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "A person cannot be tried again for a crime for which they were already acquitted or convicted, which is known as double jeopardy.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "Criminal cases involve the state prosecuting a person for an alleged offense.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "The legal system includes protections against repeated prosecution.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "The barangay justice system handles disputes at the community level.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Judges are appointed by the President upon recommendation of the Judicial and Bar Council.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is the role of the Sandiganbayan in the Philippine judiciary?",
+    "passages": [
+      {
+        "text": "The Sandiganbayan is a special court in the Philippines that hears cases involving graft and corruption by public officials.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "Cases involving corruption and misuse of government funds by public officials are handled by the Sandiganbayan.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "The Supreme Court is the highest judicial body in the country.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "There are special courts in the Philippines assigned to try specific categories of cases.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "Local trial courts handle ordinary criminal and civil cases.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "The Office of the Ombudsman investigates complaints against public officials.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is the doctrine of exhaustion of administrative remedies?",
+    "passages": [
+      {
+        "text": "The doctrine of exhaustion of administrative remedies requires a party to seek relief from administrative bodies before going to court.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "Before filing a case in court, a person must first utilize the remedies available within the concerned administrative agency.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "A court can review the decisions of government agencies.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Administrative bodies are empowered to resolve disputes within their specialized jurisdictions.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "Court dockets often face backlogs due to a high number of filed cases.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Quasi-judicial bodies exercise adjudicatory functions in specific legal fields.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "Define 'agrarian reform' in the Philippine context.",
+    "passages": [
+      {
+        "text": "Agrarian reform refers to the redistribution of agricultural land to farmers and farmworkers, aiming to promote social justice and industrialization.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "In the Philippines, agrarian reform is a government initiative to transfer land ownership from landlords to tenants and farmers.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "Farming is a primary source of livelihood in rural areas.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Programs exist to ensure equitable land distribution and uplift rural communities.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "Public schools provide free education to all Filipino children.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "The Department of Tourism promotes the country’s tourist destinations.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is the Anti-Violence Against Women and Their Children Act (RA 9262)?",
+    "passages": [
+      {
+        "text": "RA 9262 is a Philippine law that defines and penalizes violence against women and their children, including physical, psychological, and economic abuse.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "The Anti-VAWC Act protects women and children from various forms of abuse committed by partners or family members.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "The Child and Youth Welfare Code protects the rights of minors.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Philippine laws aim to safeguard vulnerable groups from domestic violence.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "The National Economic and Development Authority plans the country’s economic policies.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Traffic regulations govern vehicle operations and road safety.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is the purpose of the Katarungang Pambarangay system?",
+    "passages": [
+      {
+        "text": "The Katarungang Pambarangay system is a local justice system that aims to amicably settle disputes at the barangay level before they escalate to formal courts.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "Barangay justice promotes community-based resolution of disputes through conciliation and mediation.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "The Regional Trial Court handles serious civil and criminal cases.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Local governments have mechanisms to resolve minor conflicts within their jurisdiction.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "The Commission on Elections supervises the conduct of elections.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Environmental agencies enforce laws protecting natural resources.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is the doctrine of primary jurisdiction in administrative law?",
+    "passages": [
+      {
+        "text": "The doctrine of primary jurisdiction holds that courts should defer to administrative agencies when a case requires the agency’s specialized expertise.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "When technical issues are involved, courts usually wait for the relevant agency to make initial findings.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "Administrative agencies are part of the executive branch.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Some disputes are better handled by expert government bodies before judicial intervention.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "The Philippine National Police is responsible for maintaining peace and order.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "The Commission on Audit reviews government expenditures for legality and propriety.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "Explain the concept of 'just compensation' in expropriation cases.",
+    "passages": [
+      {
+        "text": "Just compensation refers to the fair value of property taken by the government for public use, ensuring that the owner is not left at a disadvantage.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "In expropriation, property owners must be paid fairly for the land acquired by the government.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "The state may acquire land for public infrastructure projects.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Constitutional rights protect property owners from unjust land seizures.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "Philippine educational institutions follow the K-12 curriculum framework.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "The Department of Health manages national health programs and services.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is the Anti-Terrorism Act of 2020 (RA 11479)?",
+    "passages": [
+      {
+        "text": "RA 11479 is a law enacted to strengthen the Philippines' legal framework against terrorism, including provisions for extended detention and surveillance.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "The Anti-Terrorism Act allows law enforcers to arrest and monitor individuals suspected of terrorist acts.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "The Dangerous Drugs Act penalizes possession and use of illegal drugs.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "National security laws grant the government broader powers to combat terrorism.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "Traffic laws regulate vehicle operation and road safety measures.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "The Department of Education manages the country's education system.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is the legal implication of 'informed consent' in medical treatment?",
+    "passages": [
+      {
+        "text": "Informed consent means a patient agrees to a medical procedure after understanding its risks, benefits, and alternatives.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "Doctors must ensure that patients voluntarily agree to treatment based on sufficient information.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "Healthcare professionals are licensed by the Professional Regulation Commission.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Medical ethics require transparency and voluntary participation in procedures.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "Public transportation rules govern the operation of buses and jeepneys.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "The National Museum preserves the cultural heritage of the Philippines.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is the role of the Civil Service Commission (CSC)?",
+    "passages": [
+      {
+        "text": "The Civil Service Commission oversees the integrity and efficiency of the civil service and ensures merit-based appointments in government.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "CSC is responsible for ensuring fair hiring and disciplinary standards for government employees.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "The Department of Health handles national health policies.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Government institutions are expected to uphold professionalism and accountability in public service.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "Local government units administer basic services to their constituents.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "The Philippine Sports Commission develops national sports programs.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  },
+  {
+    "query": "What is the 'Comprehensive Dangerous Drugs Act' (RA 9165) of the Philippines?",
+    "passages": [
+      {
+        "text": "The Comprehensive Dangerous Drugs Act criminalizes the importation, sale, possession, and use of illegal drugs, establishing rehabilitation programs and a national drug prevention campaign.",
+        "label": "exact",
+        "relevant": true
+      },
+      {
+        "text": "RA 9165 penalizes drug-related offenses and provides for treatment and rehabilitation of drug dependents alongside law enforcement measures.",
+        "label": "paraphrase",
+        "relevant": true
+      },
+      {
+        "text": "The Philippine Drug Enforcement Agency is the lead agency in anti-drug operations.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "Public health and safety laws address substance abuse through both punitive and rehabilitative approaches.",
+        "label": "conceptual",
+        "relevant": true
+      },
+      {
+        "text": "The National Library manages the preservation of books and manuscripts.",
+        "label": "irrelevant",
+        "relevant": false
+      },
+      {
+        "text": "The Land Transportation Office issues driver’s licenses and vehicle registrations.",
+        "label": "irrelevant",
+        "relevant": false
+      }
+    ]
+  }
+]
