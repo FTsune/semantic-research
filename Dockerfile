@@ -18,18 +18,15 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Download spaCy model
 RUN python -m spacy download en_core_web_sm
 
-# Copy project files
+# Copy all project files
 COPY . .
 
 # Create necessary directories
 RUN mkdir -p reports dataset models evaluation notebooks
 
-# Set environment variables
+# Environment variables
 ENV PYTHONPATH=/app
 ENV PYTHONUNBUFFERED=1
 
-# Expose port for Jupyter notebook
-EXPOSE 8888
-
-# Default command
-CMD ["python", "main.py"]
+# Default command (can be overridden in docker-compose or CLI)
+CMD ["streamlit", "run", "app.py"]

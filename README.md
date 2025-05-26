@@ -5,7 +5,6 @@ A comprehensive platform for evaluating and comparing different text similarity 
 ## Features
 
 - **5 Similarity Metrics**: TF-IDF Cosine, BM25, Jaccard, Sentence BERT, BERTScore
-- **Interactive Demo**: Jupyter notebook with live examples and visualizations
 - **Streamlit Web Interface**: Modern, interactive web application for similarity testing
 - **Performance Monitoring**: Real-time comparison of model performance
 - **Docker Deployment**: Containerized for easy deployment
@@ -17,16 +16,13 @@ A comprehensive platform for evaluating and comparing different text similarity 
 1. **Clone and setup**:
    ```bash
    git clone <repository>
-   cd similarity-evaluation
-   chmod +x scripts/*.sh
-   ./scripts/setup.sh
+   cd semantic-research
 
 2. **Run the platform**:
    ```bash
    ./scripts/run.sh
 
 3. **Access the services**:
-   - Jupyter Lab: http://localhost:8888
    - Streamlit App: http://localhost:8501
 
 ### Manual Setup
@@ -44,31 +40,28 @@ A comprehensive platform for evaluating and comparing different text similarity 
    ```bash
    streamlit run app.py
 
-4. **Start Jupyter notebook**:
-   ```bash
-   jupyter lab notebooks/
-
 ## Project Structure
 
 ```
-├── models/                 # Similarity metric implementations
+├── models/                # Similarity metric implementations
 │   ├── tfidf_cosine.py
 │   ├── okapi_bm25.py
 │   ├── jaccard.py
 │   ├── sbert.py
 │   └── bertscore.py
-├── evaluation/             # Evaluation metrics and analysis
+├── evaluation/            # Evaluation metrics and analysis
 │   ├── metrics.py
 │   └── analyzer.py
 ├── dataset/               # Philippine legal dataset
-├── notebooks/             # Interactive demo notebook
+├── notebooks/             # For documentation
 ├── reports/               # Generated analysis reports
 ├── scripts/               # Setup and run scripts
-├── main.py               # Main evaluation script
-├── streamlit_app.py      # Streamlit web application
-├── Dockerfile            # Docker configuration
-├── docker-compose.yml    # Multi-service setup
-└── requirements.txt      # Python dependencies
+├── tests/                 # Unit testing 
+├── main.py                # Main evaluation script
+├── app.py                 # Streamlit web application
+├── Dockerfile             # Docker configuration
+├── docker-compose.yml     # Multi-service setup
+└── requirements.txt       # Python dependencies
 ```
 
 ## Streamlit Interface Features
@@ -131,7 +124,7 @@ The Streamlit interface provides:
 
 ## Docker Services
 
-- **similarity-app**: Main application with Jupyter Lab and Streamlit
+- **similarity-app**: Main application with Streamlit
 - **streamlit-app**: Dedicated Streamlit service
 - **Shared volumes**: For data persistence and sharing
 
@@ -143,7 +136,7 @@ The Streamlit interface provides:
 python main.py
 
 # Start Streamlit app
-streamlit run streamlit_app.py
+streamlit run app.py
 
 # Generate specific model report
 python -c "
