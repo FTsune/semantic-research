@@ -6,8 +6,8 @@
 - **Precision@3**: 0.6867
 - **Recall@3**: 0.6867
 - **MRR**: 0.9767
-- **Runtime (in seconds)**: 12.9358
-- **Peak Memory (in KB)**: 1635.7129
+- **Runtime (in seconds)**: 11.2613
+- **Peak Memory (in KB)**: 1631.7871
 
 ---
 

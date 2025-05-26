@@ -1,14 +1,18 @@
 import os
+import csv
 import numpy as np
 
-def generate_analysis_log(model_name, dataset, model, metrics=None, output_dir="reports", clean_previous=True):
+def generate_analysis_log(model_name, dataset, model, metrics=None, output_dir="reports", clean_previous=False):
     os.makedirs(output_dir, exist_ok=True)
+
+    # Markdown log for qualitative analysis
     log_path = os.path.join(output_dir, f"{model_name}_performance.md")
 
-    # Optional cleanup step
+    # Optional cleanup
     if clean_previous and os.path.exists(log_path):
         os.remove(log_path)
 
+    # === Save Markdown Log ===
     with open(log_path, "w", encoding="utf-8") as f:
         f.write(f"# Performance Analysis Report: {model_name}\n\n")
 
@@ -65,3 +69,19 @@ def generate_analysis_log(model_name, dataset, model, metrics=None, output_dir="
                 f.write("⚠️ **Edge Case:** Multiple relevant passages in top-3 but top-1 is incorrect.\n\n")
 
             f.write("\n---\n\n")
+
+    # Save to CSV for Benchmarking
+    if metrics:
+        csv_path = os.path.join(output_dir, "benchmark_summary.csv")
+        file_exists = os.path.exists(csv_path)
+
+        with open(csv_path, "a", newline='', encoding="utf-8") as csvfile:
+            fieldnames = ["Model"] + list(metrics.keys())
+            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+
+            if not file_exists:
+                writer.writeheader()
+
+            row = {"Model": model_name}
+            row.update({k: round(v, 4) for k, v in metrics.items()})
+            writer.writerow(row)

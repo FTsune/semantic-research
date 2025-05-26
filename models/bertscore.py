@@ -2,7 +2,7 @@ from bert_score import score
 import numpy as np
 
 class BERTScoreSimilarity:
-    def __init__(self, model_type='microsoft/deberta-xlarge-mnli', lang='en'):
+    def __init__(self, model_type='distilbert-base-uncased', lang='en'):
         self.model_type = model_type
         self.lang = lang
     

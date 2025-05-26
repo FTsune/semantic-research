@@ -2,12 +2,12 @@
 
 ## Quantitative Metrics
 
-- **Precision@1**: 0.8200
-- **Precision@3**: 0.6733
-- **Recall@3**: 0.6733
-- **MRR**: 0.9067
-- **Runtime (in seconds)**: 835.3911
-- **Peak Memory (in KB)**: 26296.9375
+- **Precision@1**: 0.9600
+- **Precision@3**: 0.8333
+- **Recall@3**: 0.8333
+- **MRR**: 0.9800
+- **Runtime (in seconds)**: 97.0414
+- **Peak Memory (in KB)**: 14105.2812
 
 ---
 
@@ -17,18 +17,16 @@
 **Query:** What is the function of the Presidential Electoral Tribunal (PET)?
 
 **Top-1 Match:**
-> The National Economic and Development Authority evaluates socioeconomic plans and programs.
+> The Presidential Electoral Tribunal is a special tribunal composed of Supreme Court Justices that resolves electoral protests related to presidential and vice-presidential elections.
 
-**Top-1 Label:** `irrelevant` | **Relevant:** `False`
+**Top-1 Label:** `exact` | **Relevant:** `True` | **Score:** `0.7792`
 
-❌ **Top-1 retrieval failed (irrelevant passage).**
+✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ❌ `irrelevant` - The National Economic and Development Authority evaluates socioeconomic plans and programs....
-2. ✅ `exact` - The Presidential Electoral Tribunal is a special tribunal composed of Supreme Court Justices that re...
-3. ✅ `paraphrase` - The PET handles disputes about the outcome of elections for the highest executive positions in the P...
-
-⚠️ **Edge Case:** Multiple relevant passages in top-3 but top-1 is incorrect.
+1. ✅ `exact` | Score: `0.7792` - The Presidential Electoral Tribunal is a special tribunal composed of Supreme Court Justices that re...
+2. ❌ `irrelevant` | Score: `0.7554` - The Commission on Elections oversees the conduct of national and local elections....
+3. ✅ `conceptual` | Score: `0.7553` - Electoral disputes require specialized forums to ensure the integrity of democratic processes....
 
 
 ---
@@ -39,14 +37,14 @@
 **Top-1 Match:**
 > In Philippine law, estafa occurs when a person defrauds another of money or property through misrepresentation or deception.
 
-**Top-1 Label:** `paraphrase` | **Relevant:** `True`
+**Top-1 Label:** `paraphrase` | **Relevant:** `True` | **Score:** `0.7580`
 
 ✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ✅ `paraphrase` - In Philippine law, estafa occurs when a person defrauds another of money or property through misrepr...
-2. ✅ `conceptual` - The Revised Penal Code penalizes various forms of fraudulent activities that cause financial harm....
-3. ❌ `irrelevant` - The Public Attorney's Office provides free legal services to indigent clients....
+1. ✅ `paraphrase` | Score: `0.7580` - In Philippine law, estafa occurs when a person defrauds another of money or property through misrepr...
+2. ✅ `exact` | Score: `0.7178` - Estafa is a crime involving deceit or fraud where one party causes damage to another by abusing conf...
+3. ✅ `conceptual` | Score: `0.7022` - The Revised Penal Code penalizes various forms of fraudulent activities that cause financial harm....
 
 
 ---
@@ -57,14 +55,14 @@
 **Top-1 Match:**
 > In dubio pro reo is a legal principle stating that in case of doubt, courts must rule in favor of the accused, embodying the presumption of innocence.
 
-**Top-1 Label:** `exact` | **Relevant:** `True`
+**Top-1 Label:** `exact` | **Relevant:** `True` | **Score:** `0.8035`
 
 ✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ✅ `exact` - In dubio pro reo is a legal principle stating that in case of doubt, courts must rule in favor of th...
-2. ❌ `irrelevant` - The Securities and Exchange Commission regulates corporations and securities in the Philippines....
-3. ✅ `paraphrase` - When evidence is insufficient to establish guilt beyond reasonable doubt, the accused must be acquit...
+1. ✅ `exact` | Score: `0.8035` - In dubio pro reo is a legal principle stating that in case of doubt, courts must rule in favor of th...
+2. ✅ `paraphrase` | Score: `0.7919` - When evidence is insufficient to establish guilt beyond reasonable doubt, the accused must be acquit...
+3. ❌ `irrelevant` | Score: `0.7023` - Small claims courts handle minor civil disputes with simplified procedures....
 
 
 ---
@@ -75,14 +73,14 @@
 **Top-1 Match:**
 > Reserved powers are those authorities and functions retained by the national government even after devolution under the Local Government Code.
 
-**Top-1 Label:** `exact` | **Relevant:** `True`
+**Top-1 Label:** `exact` | **Relevant:** `True` | **Score:** `0.8134`
 
 ✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ✅ `exact` - Reserved powers are those authorities and functions retained by the national government even after d...
-2. ✅ `paraphrase` - Under the Local Government Code, certain powers remain with the central government despite decentral...
-3. ✅ `conceptual` - The distribution of powers between national and local authorities defines the Philippine governance...
+1. ✅ `exact` | Score: `0.8134` - Reserved powers are those authorities and functions retained by the national government even after d...
+2. ✅ `paraphrase` | Score: `0.8113` - Under the Local Government Code, certain powers remain with the central government despite decentral...
+3. ✅ `conceptual` | Score: `0.7673` - The distribution of powers between national and local authorities defines the Philippine governance...
 
 
 ---
@@ -93,14 +91,14 @@
 **Top-1 Match:**
 > Litis pendentia is a ground for dismissal when there is another pending action involving the same parties, same causes of action, and same reliefs sought.
 
-**Top-1 Label:** `exact` | **Relevant:** `True`
+**Top-1 Label:** `exact` | **Relevant:** `True` | **Score:** `0.8261`
 
 ✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ✅ `exact` - Litis pendentia is a ground for dismissal when there is another pending action involving the same pa...
-2. ✅ `paraphrase` - A case may be dismissed due to litis pendentia if an identical lawsuit is already being heard by ano...
-3. ❌ `irrelevant` - The rules of court establish procedures for filing pleadings and motions....
+1. ✅ `exact` | Score: `0.8261` - Litis pendentia is a ground for dismissal when there is another pending action involving the same pa...
+2. ✅ `paraphrase` | Score: `0.8075` - A case may be dismissed due to litis pendentia if an identical lawsuit is already being heard by ano...
+3. ✅ `conceptual` | Score: `0.7296` - Legal procedures exist to prevent duplicate litigation and conflicting judgments....
 
 
 ---
@@ -109,16 +107,16 @@
 **Query:** What is the Cybercrime Prevention Act of 2012 (RA 10175)?
 
 **Top-1 Match:**
-> RA 10175 is a law that defines and penalizes cybercrimes in the Philippines, including illegal access, data interference, and cyber libel.
+> The Cybercrime Prevention Act criminalizes online offenses and provides mechanisms for investigation and prosecution of digital crimes.
 
-**Top-1 Label:** `exact` | **Relevant:** `True`
+**Top-1 Label:** `paraphrase` | **Relevant:** `True` | **Score:** `0.7898`
 
 ✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ✅ `exact` - RA 10175 is a law that defines and penalizes cybercrimes in the Philippines, including illegal acces...
-2. ✅ `paraphrase` - The Cybercrime Prevention Act criminalizes online offenses and provides mechanisms for investigation...
-3. ❌ `irrelevant` - The Department of Information and Communications Technology oversees the country's ICT development....
+1. ✅ `paraphrase` | Score: `0.7898` - The Cybercrime Prevention Act criminalizes online offenses and provides mechanisms for investigation...
+2. ✅ `exact` | Score: `0.7840` - RA 10175 is a law that defines and penalizes cybercrimes in the Philippines, including illegal acces...
+3. ❌ `irrelevant` | Score: `0.6620` - The National Telecommunications Commission regulates broadcast and telecommunications services....
 
 
 ---
@@ -129,14 +127,14 @@
 **Top-1 Match:**
 > In Philippine family law, a marriage may be declared void if one spouse is found to have psychological incapacity that prevents them from performing marital duties.
 
-**Top-1 Label:** `paraphrase` | **Relevant:** `True`
+**Top-1 Label:** `paraphrase` | **Relevant:** `True` | **Score:** `0.7803`
 
 ✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ✅ `paraphrase` - In Philippine family law, a marriage may be declared void if one spouse is found to have psychologic...
-2. ✅ `conceptual` - The Family Code provides means to address fundamentally flawed marital relationships....
-3. ✅ `exact` - Psychological incapacity refers to a serious psychological condition that renders a spouse incapable...
+1. ✅ `paraphrase` | Score: `0.7803` - In Philippine family law, a marriage may be declared void if one spouse is found to have psychologic...
+2. ✅ `exact` | Score: `0.7601` - Psychological incapacity refers to a serious psychological condition that renders a spouse incapable...
+3. ✅ `conceptual` | Score: `0.7561` - The Family Code provides means to address fundamentally flawed marital relationships....
 
 
 ---
@@ -147,14 +145,14 @@
 **Top-1 Match:**
 > The Anti-Money Laundering Act criminalizes the process of concealing or disguising the proceeds of unlawful activities to make them appear to have originated from legitimate sources.
 
-**Top-1 Label:** `exact` | **Relevant:** `True`
+**Top-1 Label:** `exact` | **Relevant:** `True` | **Score:** `0.7402`
 
 ✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ✅ `exact` - The Anti-Money Laundering Act criminalizes the process of concealing or disguising the proceeds of u...
-2. ❌ `irrelevant` - The Bangko Sentral ng Pilipinas sets monetary policies for financial stability....
-3. ✅ `paraphrase` - AMLA establishes mechanisms to detect and prevent the conversion of illegally obtained funds into se...
+1. ✅ `exact` | Score: `0.7402` - The Anti-Money Laundering Act criminalizes the process of concealing or disguising the proceeds of u...
+2. ✅ `paraphrase` | Score: `0.7206` - AMLA establishes mechanisms to detect and prevent the conversion of illegally obtained funds into se...
+3. ❌ `irrelevant` | Score: `0.7147` - The Bangko Sentral ng Pilipinas sets monetary policies for financial stability....
 
 
 ---
@@ -165,14 +163,14 @@
 **Top-1 Match:**
 > The Philippine government structure distributes powers among different branches to prevent concentration of authority and ensure checks and balances.
 
-**Top-1 Label:** `paraphrase` | **Relevant:** `True`
+**Top-1 Label:** `paraphrase` | **Relevant:** `True` | **Score:** `0.7745`
 
 ✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ✅ `paraphrase` - The Philippine government structure distributes powers among different branches to prevent concentra...
-2. ✅ `exact` - Separation of powers is a constitutional principle that divides government authority among three bra...
-3. ❌ `irrelevant` - The Supreme Court of the Philippines is composed of a Chief Justice and Associate Justices....
+1. ✅ `paraphrase` | Score: `0.7745` - The Philippine government structure distributes powers among different branches to prevent concentra...
+2. ✅ `exact` | Score: `0.7400` - Separation of powers is a constitutional principle that divides government authority among three bra...
+3. ✅ `conceptual` | Score: `0.7206` - Constitutional democracies establish mechanisms to prevent abuse of power and protect democratic ins...
 
 
 ---
@@ -183,14 +181,14 @@
 **Top-1 Match:**
 > RA 10667 establishes the Philippine Competition Commission to prevent monopolies and ensure fair market competition.
 
-**Top-1 Label:** `paraphrase` | **Relevant:** `True`
+**Top-1 Label:** `paraphrase` | **Relevant:** `True` | **Score:** `0.8210`
 
 ✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ✅ `paraphrase` - RA 10667 establishes the Philippine Competition Commission to prevent monopolies and ensure fair mar...
-2. ❌ `irrelevant` - Business name registration is handled by the Department of Trade and Industry....
-3. ✅ `exact` - The Philippine Competition Act aims to protect consumer welfare by promoting competitive markets and...
+1. ✅ `paraphrase` | Score: `0.8210` - RA 10667 establishes the Philippine Competition Commission to prevent monopolies and ensure fair mar...
+2. ✅ `exact` | Score: `0.7563` - The Philippine Competition Act aims to protect consumer welfare by promoting competitive markets and...
+3. ❌ `irrelevant` | Score: `0.6939` - The Securities and Exchange Commission regulates the corporate sector and capital markets....
 
 
 ---
@@ -201,14 +199,16 @@
 **Top-1 Match:**
 > The Intellectual Property Office of the Philippines processes applications for IP registration.
 
-**Top-1 Label:** `irrelevant` | **Relevant:** `False`
+**Top-1 Label:** `irrelevant` | **Relevant:** `False` | **Score:** `0.7600`
 
 ❌ **Top-1 retrieval failed (irrelevant passage).**
 
 **Top-3 Retrieved Passages:**
-1. ❌ `irrelevant` - The Intellectual Property Office of the Philippines processes applications for IP registration....
-2. ❌ `irrelevant` - The Department of Trade and Industry handles business name registrations in the Philippines....
-3. ✅ `conceptual` - Legal systems incentivize innovation by providing creators with exclusive rights to their intellectu...
+1. ❌ `irrelevant` | Score: `0.7600` - The Intellectual Property Office of the Philippines processes applications for IP registration....
+2. ✅ `exact` | Score: `0.7383` - Intellectual property rights are legal protections granted to creators and inventors for their creat...
+3. ✅ `paraphrase` | Score: `0.7310` - Philippine IP laws protect original works, inventions, and distinctive marks used in commerce from u...
+
+⚠️ **Edge Case:** Multiple relevant passages in top-3 but top-1 is incorrect.
 
 
 ---
@@ -217,18 +217,16 @@
 **Query:** What is the principle of 'stare decisis' in Philippine jurisprudence?
 
 **Top-1 Match:**
-> The Rules of Court govern civil and criminal procedure in Philippine courts.
+> Lower courts are bound by the decisions of the Supreme Court under the doctrine of stare decisis.
 
-**Top-1 Label:** `irrelevant` | **Relevant:** `False`
+**Top-1 Label:** `paraphrase` | **Relevant:** `True` | **Score:** `0.7920`
 
-❌ **Top-1 retrieval failed (irrelevant passage).**
+✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ❌ `irrelevant` - The Rules of Court govern civil and criminal procedure in Philippine courts....
-2. ✅ `exact` - Stare decisis is the principle that courts follow precedents set by higher courts or their own previ...
-3. ✅ `paraphrase` - Lower courts are bound by the decisions of the Supreme Court under the doctrine of stare decisis....
-
-⚠️ **Edge Case:** Multiple relevant passages in top-3 but top-1 is incorrect.
+1. ✅ `paraphrase` | Score: `0.7920` - Lower courts are bound by the decisions of the Supreme Court under the doctrine of stare decisis....
+2. ✅ `exact` | Score: `0.7913` - Stare decisis is the principle that courts follow precedents set by higher courts or their own previ...
+3. ❌ `irrelevant` | Score: `0.7591` - The Rules of Court govern civil and criminal procedure in Philippine courts....
 
 
 ---
@@ -239,14 +237,14 @@
 **Top-1 Match:**
 > In Philippine criminal procedure, bail allows temporary freedom for the accused while their case is being heard by posting security.
 
-**Top-1 Label:** `paraphrase` | **Relevant:** `True`
+**Top-1 Label:** `paraphrase` | **Relevant:** `True` | **Score:** `0.7904`
 
 ✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ✅ `paraphrase` - In Philippine criminal procedure, bail allows temporary freedom for the accused while their case is...
-2. ❌ `irrelevant` - The Philippine National Police is responsible for maintaining peace and order....
-3. ❌ `irrelevant` - Criminal cases are initiated through the filing of a complaint or information....
+1. ✅ `paraphrase` | Score: `0.7904` - In Philippine criminal procedure, bail allows temporary freedom for the accused while their case is...
+2. ✅ `conceptual` | Score: `0.7257` - Pretrial release mechanisms balance the presumption of innocence with ensuring court appearance....
+3. ✅ `exact` | Score: `0.7065` - Bail is the security given for the release of a person in custody, conditioned upon the person's app...
 
 
 ---
@@ -255,18 +253,16 @@
 **Query:** What is the Anti-Hazing Law (RA 8049) in the Philippines?
 
 **Top-1 Match:**
-> The Department of Education implements basic education policies in the Philippines.
+> The Anti-Hazing Law prohibits hazing and regulates initiation rites of fraternities, sororities, and organizations, imposing penalties for violations resulting in injury or death.
 
-**Top-1 Label:** `irrelevant` | **Relevant:** `False`
+**Top-1 Label:** `exact` | **Relevant:** `True` | **Score:** `0.7483`
 
-❌ **Top-1 retrieval failed (irrelevant passage).**
+✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ❌ `irrelevant` - The Department of Education implements basic education policies in the Philippines....
-2. ✅ `paraphrase` - RA 8049 criminalizes dangerous initiation practices that cause physical or psychological harm to stu...
-3. ✅ `exact` - The Anti-Hazing Law prohibits hazing and regulates initiation rites of fraternities, sororities, and...
-
-⚠️ **Edge Case:** Multiple relevant passages in top-3 but top-1 is incorrect.
+1. ✅ `exact` | Score: `0.7483` - The Anti-Hazing Law prohibits hazing and regulates initiation rites of fraternities, sororities, and...
+2. ❌ `irrelevant` | Score: `0.7453` - The Department of Education implements basic education policies in the Philippines....
+3. ✅ `paraphrase` | Score: `0.7377` - RA 8049 criminalizes dangerous initiation practices that cause physical or psychological harm to stu...
 
 
 ---
@@ -275,18 +271,16 @@
 **Query:** What is the principle of 'eminent domain' in Philippine property law?
 
 **Top-1 Match:**
-> The Land Registration Authority oversees the country’s land title system.
+> Eminent domain is the inherent power of the state to take private property for public use upon payment of just compensation.
 
-**Top-1 Label:** `irrelevant` | **Relevant:** `False`
+**Top-1 Label:** `exact` | **Relevant:** `True` | **Score:** `0.7640`
 
-❌ **Top-1 retrieval failed (irrelevant passage).**
+✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ❌ `irrelevant` - The Land Registration Authority oversees the country’s land title system....
-2. ✅ `exact` - Eminent domain is the inherent power of the state to take private property for public use upon payme...
-3. ✅ `paraphrase` - The government's authority to expropriate private land for public purposes, subject to fair payment,...
-
-⚠️ **Edge Case:** Multiple relevant passages in top-3 but top-1 is incorrect.
+1. ✅ `exact` | Score: `0.7640` - Eminent domain is the inherent power of the state to take private property for public use upon payme...
+2. ✅ `paraphrase` | Score: `0.7518` - The government's authority to expropriate private land for public purposes, subject to fair payment,...
+3. ✅ `conceptual` | Score: `0.7358` - Constitutional provisions balance private property rights with public interest needs....
 
 
 ---
@@ -297,14 +291,14 @@
 **Top-1 Match:**
 > Philippine courts follow specific procedures for accepting and evaluating genetic test results as evidence.
 
-**Top-1 Label:** `paraphrase` | **Relevant:** `True`
+**Top-1 Label:** `paraphrase` | **Relevant:** `True` | **Score:** `0.7991`
 
 ✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ✅ `paraphrase` - Philippine courts follow specific procedures for accepting and evaluating genetic test results as ev...
-2. ✅ `exact` - The Rule on DNA Evidence provides guidelines for the admissibility, collection, handling, and apprec...
-3. ✅ `conceptual` - Modern scientific methods have been integrated into legal procedures to improve accuracy in fact-fin...
+1. ✅ `paraphrase` | Score: `0.7991` - Philippine courts follow specific procedures for accepting and evaluating genetic test results as ev...
+2. ✅ `exact` | Score: `0.7872` - The Rule on DNA Evidence provides guidelines for the admissibility, collection, handling, and apprec...
+3. ✅ `conceptual` | Score: `0.7356` - Modern scientific methods have been integrated into legal procedures to improve accuracy in fact-fin...
 
 
 ---
@@ -313,16 +307,16 @@
 **Query:** What is the concept of 'visitorial power' over corporations?
 
 **Top-1 Match:**
-> Visitorial power is the authority of regulatory agencies to examine the operations, books, and records of corporations to ensure compliance with laws and regulations.
+> Government regulators can inspect and investigate corporate activities through their visitorial powers.
 
-**Top-1 Label:** `exact` | **Relevant:** `True`
+**Top-1 Label:** `paraphrase` | **Relevant:** `True` | **Score:** `0.7543`
 
 ✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ✅ `exact` - Visitorial power is the authority of regulatory agencies to examine the operations, books, and recor...
-2. ✅ `paraphrase` - Government regulators can inspect and investigate corporate activities through their visitorial powe...
-3. ❌ `irrelevant` - Corporations are required to submit annual financial statements....
+1. ✅ `paraphrase` | Score: `0.7543` - Government regulators can inspect and investigate corporate activities through their visitorial powe...
+2. ✅ `exact` | Score: `0.7418` - Visitorial power is the authority of regulatory agencies to examine the operations, books, and recor...
+3. ✅ `conceptual` | Score: `0.7193` - Regulatory frameworks enable government oversight of business entities to protect public interest....
 
 
 ---
@@ -331,16 +325,16 @@
 **Query:** What is 'legal education' requirement for lawyers in the Philippines?
 
 **Top-1 Match:**
-> To become a lawyer in the Philippines, one must graduate from an accredited law school and pass the Bar exams administered by the Supreme Court.
+> Continuing legal education is mandatory for practicing lawyers to stay updated with developments in the law.
 
-**Top-1 Label:** `paraphrase` | **Relevant:** `True`
+**Top-1 Label:** `irrelevant` | **Relevant:** `False` | **Score:** `0.7912`
 
-✅ **Top-1 retrieval correct.**
+❌ **Top-1 retrieval failed (irrelevant passage).**
 
 **Top-3 Retrieved Passages:**
-1. ✅ `paraphrase` - To become a lawyer in the Philippines, one must graduate from an accredited law school and pass the...
-2. ❌ `irrelevant` - Continuing legal education is mandatory for practicing lawyers to stay updated with developments in...
-3. ❌ `irrelevant` - The Integrated Bar of the Philippines is the national organization of lawyers....
+1. ❌ `irrelevant` | Score: `0.7912` - Continuing legal education is mandatory for practicing lawyers to stay updated with developments in...
+2. ✅ `paraphrase` | Score: `0.7861` - To become a lawyer in the Philippines, one must graduate from an accredited law school and pass the...
+3. ❌ `irrelevant` | Score: `0.7844` - The Integrated Bar of the Philippines is the national organization of lawyers....
 
 
 ---
@@ -351,14 +345,14 @@
 **Top-1 Match:**
 > While in office, the Philippine President enjoys immunity from certain legal proceedings related to their official functions.
 
-**Top-1 Label:** `paraphrase` | **Relevant:** `True`
+**Top-1 Label:** `paraphrase` | **Relevant:** `True` | **Score:** `0.7450`
 
 ✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ✅ `paraphrase` - While in office, the Philippine President enjoys immunity from certain legal proceedings related to...
-2. ✅ `conceptual` - Executive privileges aim to ensure the effective functioning of the highest office without undue jud...
-3. ❌ `irrelevant` - Cabinet meetings are typically held in Malacañang Palace....
+1. ✅ `paraphrase` | Score: `0.7450` - While in office, the Philippine President enjoys immunity from certain legal proceedings related to...
+2. ✅ `exact` | Score: `0.7435` - Presidential immunity is the legal doctrine that protects a sitting President from lawsuits for offi...
+3. ✅ `conceptual` | Score: `0.7087` - Executive privileges aim to ensure the effective functioning of the highest office without undue jud...
 
 
 ---
@@ -367,16 +361,16 @@
 **Query:** What is the Anti-Torture Act of 2009 (RA 9745)?
 
 **Top-1 Match:**
-> RA 9745 prohibits physical and mental torture and provides remedies and protection for victims.
+> The Anti-Torture Act criminalizes acts of torture and other cruel, inhuman, and degrading treatment or punishment, establishing liability for perpetrators, particularly state agents.
 
-**Top-1 Label:** `paraphrase` | **Relevant:** `True`
+**Top-1 Label:** `exact` | **Relevant:** `True` | **Score:** `0.7542`
 
 ✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ✅ `paraphrase` - RA 9745 prohibits physical and mental torture and provides remedies and protection for victims....
-2. ❌ `irrelevant` - The Department of Justice oversees the National Prosecution Service....
-3. ✅ `exact` - The Anti-Torture Act criminalizes acts of torture and other cruel, inhuman, and degrading treatment...
+1. ✅ `exact` | Score: `0.7542` - The Anti-Torture Act criminalizes acts of torture and other cruel, inhuman, and degrading treatment...
+2. ✅ `paraphrase` | Score: `0.7530` - RA 9745 prohibits physical and mental torture and provides remedies and protection for victims....
+3. ✅ `conceptual` | Score: `0.6961` - Human rights laws protect individuals from abuses, especially those committed under color of authori...
 
 
 ---
@@ -387,14 +381,14 @@
 **Top-1 Match:**
 > Res judicata is the principle that a final judgment on the merits by a court of competent jurisdiction is conclusive between the parties and constitutes an absolute bar to a subsequent action involving the same cause of action.
 
-**Top-1 Label:** `exact` | **Relevant:** `True`
+**Top-1 Label:** `exact` | **Relevant:** `True` | **Score:** `0.7704`
 
 ✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ✅ `exact` - Res judicata is the principle that a final judgment on the merits by a court of competent jurisdicti...
-2. ✅ `paraphrase` - Once a case has been decided with finality, the same issues cannot be relitigated between the same p...
-3. ❌ `irrelevant` - Civil cases may involve claims for damages, specific performance, or injunction....
+1. ✅ `exact` | Score: `0.7704` - Res judicata is the principle that a final judgment on the merits by a court of competent jurisdicti...
+2. ✅ `paraphrase` | Score: `0.7677` - Once a case has been decided with finality, the same issues cannot be relitigated between the same p...
+3. ✅ `conceptual` | Score: `0.7304` - Legal systems value finality of judgments to prevent endless litigation and conflicting decisions....
 
 
 ---
@@ -405,14 +399,14 @@
 **Top-1 Match:**
 > The PDIC is a government-owned corporation that protects depositors by providing insurance coverage for deposits in case of bank failures.
 
-**Top-1 Label:** `exact` | **Relevant:** `True`
+**Top-1 Label:** `exact` | **Relevant:** `True` | **Score:** `0.7781`
 
 ✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ✅ `exact` - The PDIC is a government-owned corporation that protects depositors by providing insurance coverage...
-2. ❌ `irrelevant` - The Bangko Sentral ng Pilipinas regulates the banking industry....
-3. ❌ `irrelevant` - The Securities and Exchange Commission oversees corporate registration and stock market activities....
+1. ✅ `exact` | Score: `0.7781` - The PDIC is a government-owned corporation that protects depositors by providing insurance coverage...
+2. ❌ `irrelevant` | Score: `0.7360` - The Bangko Sentral ng Pilipinas regulates the banking industry....
+3. ✅ `paraphrase` | Score: `0.7209` - PDIC insures bank deposits up to a specified maximum amount and liquidates closed banks to protect d...
 
 
 ---
@@ -423,14 +417,14 @@
 **Top-1 Match:**
 > The writ of kalikasan allows citizens to seek court protection against large-scale environmental harm affecting communities.
 
-**Top-1 Label:** `paraphrase` | **Relevant:** `True`
+**Top-1 Label:** `paraphrase` | **Relevant:** `True` | **Score:** `0.7989`
 
 ✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ✅ `paraphrase` - The writ of kalikasan allows citizens to seek court protection against large-scale environmental har...
-2. ✅ `exact` - The writ of kalikasan is a legal remedy available to persons whose constitutional right to a balance...
-3. ❌ `irrelevant` - The Securities Regulation Code governs the registration and sale of securities in the Philippines....
+1. ✅ `paraphrase` | Score: `0.7989` - The writ of kalikasan allows citizens to seek court protection against large-scale environmental har...
+2. ✅ `exact` | Score: `0.7754` - The writ of kalikasan is a legal remedy available to persons whose constitutional right to a balance...
+3. ❌ `irrelevant` | Score: `0.7354` - The Securities Regulation Code governs the registration and sale of securities in the Philippines....
 
 
 ---
@@ -439,16 +433,16 @@
 **Query:** What is 'warranty against eviction' in Philippine contracts of sale?
 
 **Top-1 Match:**
-> Contract law provides protections for purchasers against hidden defects in title.
+> Warranty against eviction is the seller's obligation to protect the buyer against legal claims of third persons that may disturb the buyer's peaceful possession of the thing sold.
 
-**Top-1 Label:** `conceptual` | **Relevant:** `True`
+**Top-1 Label:** `exact` | **Relevant:** `True` | **Score:** `0.7708`
 
 ✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ✅ `conceptual` - Contract law provides protections for purchasers against hidden defects in title....
-2. ✅ `paraphrase` - In sales contracts, sellers guarantee that buyers will not face legal troubles from other parties cl...
-3. ✅ `exact` - Warranty against eviction is the seller's obligation to protect the buyer against legal claims of th...
+1. ✅ `exact` | Score: `0.7708` - Warranty against eviction is the seller's obligation to protect the buyer against legal claims of th...
+2. ✅ `conceptual` | Score: `0.7562` - Contract law provides protections for purchasers against hidden defects in title....
+3. ❌ `irrelevant` | Score: `0.7477` - A deed of sale transfers ownership from seller to buyer....
 
 
 ---
@@ -457,18 +451,16 @@
 **Query:** What is the 'Anti-Fencing Law' (PD 1612) in the Philippines?
 
 **Top-1 Match:**
-> The Commission on Human Rights investigates violations of civil liberties.
+> PD 1612 criminalizes the buying and selling of stolen goods to discourage theft by eliminating markets for stolen property.
 
-**Top-1 Label:** `irrelevant` | **Relevant:** `False`
+**Top-1 Label:** `paraphrase` | **Relevant:** `True` | **Score:** `0.7161`
 
-❌ **Top-1 retrieval failed (irrelevant passage).**
+✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ❌ `irrelevant` - The Commission on Human Rights investigates violations of civil liberties....
-2. ✅ `paraphrase` - PD 1612 criminalizes the buying and selling of stolen goods to discourage theft by eliminating marke...
-3. ✅ `exact` - The Anti-Fencing Law penalizes the act of buying, selling, receiving, possessing, or in any manner d...
-
-⚠️ **Edge Case:** Multiple relevant passages in top-3 but top-1 is incorrect.
+1. ✅ `paraphrase` | Score: `0.7161` - PD 1612 criminalizes the buying and selling of stolen goods to discourage theft by eliminating marke...
+2. ✅ `exact` | Score: `0.7023` - The Anti-Fencing Law penalizes the act of buying, selling, receiving, possessing, or in any manner d...
+3. ❌ `irrelevant` | Score: `0.6653` - The Commission on Human Rights investigates violations of civil liberties....
 
 
 ---
@@ -477,18 +469,16 @@
 **Query:** What is the principle of 'state immunity from suit' in the Philippines?
 
 **Top-1 Match:**
-> The Public Attorney’s Office provides legal aid to indigent litigants.
+> State immunity from suit is the principle that the State cannot be sued without its consent, based on the sovereign authority of the state and public policy considerations.
 
-**Top-1 Label:** `irrelevant` | **Relevant:** `False`
+**Top-1 Label:** `exact` | **Relevant:** `True` | **Score:** `0.7839`
 
-❌ **Top-1 retrieval failed (irrelevant passage).**
+✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ❌ `irrelevant` - The Public Attorney’s Office provides legal aid to indigent litigants....
-2. ✅ `exact` - State immunity from suit is the principle that the State cannot be sued without its consent, based o...
-3. ✅ `paraphrase` - The Philippine government is generally protected from lawsuits unless it expressly allows itself to...
-
-⚠️ **Edge Case:** Multiple relevant passages in top-3 but top-1 is incorrect.
+1. ✅ `exact` | Score: `0.7839` - State immunity from suit is the principle that the State cannot be sued without its consent, based o...
+2. ✅ `paraphrase` | Score: `0.7707` - The Philippine government is generally protected from lawsuits unless it expressly allows itself to...
+3. ✅ `conceptual` | Score: `0.7654` - Sovereign immunity reflects the traditional view that subjecting governments to routine litigation m...
 
 
 ---
@@ -499,14 +489,14 @@
 **Top-1 Match:**
 > The Blue Sky Law refers to the Securities Regulation Code that requires registration and disclosure of securities offerings to protect investors from fraudulent investments.
 
-**Top-1 Label:** `exact` | **Relevant:** `True`
+**Top-1 Label:** `exact` | **Relevant:** `True` | **Score:** `0.8021`
 
 ✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ✅ `exact` - The Blue Sky Law refers to the Securities Regulation Code that requires registration and disclosure...
-2. ❌ `irrelevant` - The Philippine Stock Exchange is the country's primary securities trading market....
-3. ✅ `paraphrase` - Philippine securities laws prevent the selling of speculative or fraudulent investments by requiring...
+1. ✅ `exact` | Score: `0.8021` - The Blue Sky Law refers to the Securities Regulation Code that requires registration and disclosure...
+2. ❌ `irrelevant` | Score: `0.7513` - The Philippine Stock Exchange is the country's primary securities trading market....
+3. ✅ `paraphrase` | Score: `0.7498` - Philippine securities laws prevent the selling of speculative or fraudulent investments by requiring...
 
 
 ---
@@ -515,18 +505,16 @@
 **Query:** What is 'land reform' in Philippine agrarian law?
 
 **Top-1 Match:**
-> Agriculture is a major sector in the Philippine economy.
+> Philippine land reform programs aim to break up large landholdings and distribute them to farmers who till the land.
 
-**Top-1 Label:** `irrelevant` | **Relevant:** `False`
+**Top-1 Label:** `paraphrase` | **Relevant:** `True` | **Score:** `0.7641`
 
-❌ **Top-1 retrieval failed (irrelevant passage).**
+✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ❌ `irrelevant` - Agriculture is a major sector in the Philippine economy....
-2. ✅ `conceptual` - Rural development policies address historical inequities in land ownership and access....
-3. ✅ `paraphrase` - Philippine land reform programs aim to break up large landholdings and distribute them to farmers wh...
-
-⚠️ **Edge Case:** Multiple relevant passages in top-3 but top-1 is incorrect.
+1. ✅ `paraphrase` | Score: `0.7641` - Philippine land reform programs aim to break up large landholdings and distribute them to farmers wh...
+2. ✅ `exact` | Score: `0.7544` - Land reform is the comprehensive redistribution of agricultural lands to tenant-farmers and agricult...
+3. ✅ `conceptual` | Score: `0.7288` - Rural development policies address historical inequities in land ownership and access....
 
 
 ---
@@ -537,14 +525,14 @@
 **Top-1 Match:**
 > The Omnibus Election Code is the comprehensive law governing the conduct of elections in the Philippines, including voter registration, candidacy requirements, campaign regulations, and election offenses.
 
-**Top-1 Label:** `exact` | **Relevant:** `True`
+**Top-1 Label:** `exact` | **Relevant:** `True` | **Score:** `0.8125`
 
 ✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ✅ `exact` - The Omnibus Election Code is the comprehensive law governing the conduct of elections in the Philipp...
-2. ❌ `irrelevant` - The Philippine electoral system uses automated counting machines....
-3. ❌ `irrelevant` - The Philippine Constitution provides for a bicameral legislature composed of the Senate and House of...
+1. ✅ `exact` | Score: `0.8125` - The Omnibus Election Code is the comprehensive law governing the conduct of elections in the Philipp...
+2. ❌ `irrelevant` | Score: `0.7732` - The Philippine electoral system uses automated counting machines....
+3. ✅ `paraphrase` | Score: `0.7382` - Batas Pambansa 881 outlines the rules and procedures for Philippine elections, from filing of candid...
 
 
 ---
@@ -555,14 +543,14 @@
 **Top-1 Match:**
 > Piercing the veil of corporate fiction is a doctrine that disregards the separate legal personality of a corporation when it is used to defeat public convenience, justify wrong, protect fraud, or defend crime.
 
-**Top-1 Label:** `exact` | **Relevant:** `True`
+**Top-1 Label:** `exact` | **Relevant:** `True` | **Score:** `0.8065`
 
 ✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ✅ `exact` - Piercing the veil of corporate fiction is a doctrine that disregards the separate legal personality...
-2. ❌ `irrelevant` - Partnerships and cooperatives also have distinct legal personalities in Philippine law....
-3. ✅ `conceptual` - Legal doctrines prevent the abuse of corporate structures to evade liability or perpetrate injustice...
+1. ✅ `exact` | Score: `0.8065` - Piercing the veil of corporate fiction is a doctrine that disregards the separate legal personality...
+2. ❌ `irrelevant` | Score: `0.7665` - Partnerships and cooperatives also have distinct legal personalities in Philippine law....
+3. ✅ `conceptual` | Score: `0.7619` - Legal doctrines prevent the abuse of corporate structures to evade liability or perpetrate injustice...
 
 
 ---
@@ -571,16 +559,16 @@
 **Query:** What is the Anti-Carnapping Act of 1972 (RA 6539)?
 
 **Top-1 Match:**
-> RA 6539 criminalizes the unlawful taking of motor vehicles, with graduated penalties depending on circumstances and resulting harm.
+> The Anti-Carnapping Act defines and penalizes the theft of motor vehicles, imposing heavier penalties when violence, intimidation, or force is used.
 
-**Top-1 Label:** `paraphrase` | **Relevant:** `True`
+**Top-1 Label:** `exact` | **Relevant:** `True` | **Score:** `0.7654`
 
 ✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ✅ `paraphrase` - RA 6539 criminalizes the unlawful taking of motor vehicles, with graduated penalties depending on ci...
-2. ✅ `exact` - The Anti-Carnapping Act defines and penalizes the theft of motor vehicles, imposing heavier penaltie...
-3. ❌ `irrelevant` - Traffic rules are enforced by the Metropolitan Manila Development Authority....
+1. ✅ `exact` | Score: `0.7654` - The Anti-Carnapping Act defines and penalizes the theft of motor vehicles, imposing heavier penaltie...
+2. ✅ `paraphrase` | Score: `0.7251` - RA 6539 criminalizes the unlawful taking of motor vehicles, with graduated penalties depending on ci...
+3. ✅ `conceptual` | Score: `0.6830` - Special criminal laws address specific forms of property crimes that have significant social impact....
 
 
 ---
@@ -591,14 +579,14 @@
 **Top-1 Match:**
 > RA 11232 updated the Corporation Code to improve ease of doing business and align with global corporate governance standards.
 
-**Top-1 Label:** `paraphrase` | **Relevant:** `True`
+**Top-1 Label:** `paraphrase` | **Relevant:** `True` | **Score:** `0.7735`
 
 ✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ✅ `paraphrase` - RA 11232 updated the Corporation Code to improve ease of doing business and align with global corpor...
-2. ✅ `exact` - The Revised Corporation Code modernizes Philippine corporate law by allowing one-person corporations...
-3. ✅ `conceptual` - Corporate laws evolve to accommodate changing business environments and technological advancements....
+1. ✅ `paraphrase` | Score: `0.7735` - RA 11232 updated the Corporation Code to improve ease of doing business and align with global corpor...
+2. ✅ `exact` | Score: `0.7645` - The Revised Corporation Code modernizes Philippine corporate law by allowing one-person corporations...
+3. ❌ `irrelevant` | Score: `0.7118` - Barangay micro business enterprises receive special tax incentives....
 
 
 ---
@@ -609,14 +597,14 @@
 **Top-1 Match:**
 > In Philippine law, public domain properties belong to the government and generally cannot be privately owned or sold.
 
-**Top-1 Label:** `paraphrase` | **Relevant:** `True`
+**Top-1 Label:** `paraphrase` | **Relevant:** `True` | **Score:** `0.7756`
 
 ✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ✅ `paraphrase` - In Philippine law, public domain properties belong to the government and generally cannot be private...
-2. ❌ `irrelevant` - Private lands can be registered under the Torrens system....
-3. ❌ `irrelevant` - The Department of Agriculture promotes productivity in rural farming communities....
+1. ✅ `paraphrase` | Score: `0.7756` - In Philippine law, public domain properties belong to the government and generally cannot be private...
+2. ✅ `conceptual` | Score: `0.7101` - Natural resources are subject to special legal classifications to ensure their preservation for futu...
+3. ❌ `irrelevant` | Score: `0.7076` - Private lands can be registered under the Torrens system....
 
 
 ---
@@ -625,16 +613,16 @@
 **Query:** What is the 'Solo Parents' Welfare Act' (RA 8972) in the Philippines?
 
 **Top-1 Match:**
-> RA 8972 establishes social protection and assistance for single mothers and fathers facing the challenges of raising children alone.
+> The Solo Parents' Welfare Act provides comprehensive support programs and benefits for single parents, including flexible work arrangements, parental leave, and educational benefits for their children.
 
-**Top-1 Label:** `paraphrase` | **Relevant:** `True`
+**Top-1 Label:** `exact` | **Relevant:** `True` | **Score:** `0.7751`
 
 ✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ✅ `paraphrase` - RA 8972 establishes social protection and assistance for single mothers and fathers facing the chall...
-2. ✅ `exact` - The Solo Parents' Welfare Act provides comprehensive support programs and benefits for single parent...
-3. ✅ `conceptual` - Social legislation addresses the needs of vulnerable family structures and promotes child welfare....
+1. ✅ `exact` | Score: `0.7751` - The Solo Parents' Welfare Act provides comprehensive support programs and benefits for single parent...
+2. ✅ `paraphrase` | Score: `0.7727` - RA 8972 establishes social protection and assistance for single mothers and fathers facing the chall...
+3. ✅ `conceptual` | Score: `0.7260` - Social legislation addresses the needs of vulnerable family structures and promotes child welfare....
 
 
 ---
@@ -645,14 +633,14 @@
 **Top-1 Match:**
 > In the Philippines, the Writ of Amparo serves as a safeguard for individuals facing threats to their fundamental rights, especially in situations involving state agents.
 
-**Top-1 Label:** `paraphrase` | **Relevant:** `True`
+**Top-1 Label:** `paraphrase` | **Relevant:** `True` | **Score:** `0.8035`
 
 ✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ✅ `paraphrase` - In the Philippines, the Writ of Amparo serves as a safeguard for individuals facing threats to their...
-2. ✅ `exact` - The Writ of Amparo is a legal remedy designed to protect individuals from threats to their life, lib...
-3. ❌ `irrelevant` - The Writ of Habeas Corpus is a legal action that requires a person under arrest to be brought before...
+1. ✅ `paraphrase` | Score: `0.8035` - In the Philippines, the Writ of Amparo serves as a safeguard for individuals facing threats to their...
+2. ✅ `exact` | Score: `0.7407` - The Writ of Amparo is a legal remedy designed to protect individuals from threats to their life, lib...
+3. ❌ `irrelevant` | Score: `0.6926` - The Writ of Habeas Corpus is a legal action that requires a person under arrest to be brought before...
 
 
 ---
@@ -663,14 +651,14 @@
 **Top-1 Match:**
 > Unforeseen events like typhoons or earthquakes that hinder contract performance are considered force majeure in Philippine jurisprudence.
 
-**Top-1 Label:** `paraphrase` | **Relevant:** `True`
+**Top-1 Label:** `paraphrase` | **Relevant:** `True` | **Score:** `0.7747`
 
 ✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ✅ `paraphrase` - Unforeseen events like typhoons or earthquakes that hinder contract performance are considered force...
-2. ✅ `exact` - Force majeure refers to events beyond the control of parties, such as natural disasters, which preve...
-3. ❌ `irrelevant` - Breach of contract occurs when one party fails to fulfill their obligations....
+1. ✅ `paraphrase` | Score: `0.7747` - Unforeseen events like typhoons or earthquakes that hinder contract performance are considered force...
+2. ✅ `exact` | Score: `0.7422` - Force majeure refers to events beyond the control of parties, such as natural disasters, which preve...
+3. ✅ `conceptual` | Score: `0.6921` - Contracts may include clauses that address unforeseen events affecting obligations....
 
 
 ---
@@ -681,14 +669,14 @@
 **Top-1 Match:**
 > Under IPRA, indigenous peoples are granted rights to their ancestral lands and the preservation of their cultural practices.
 
-**Top-1 Label:** `paraphrase` | **Relevant:** `True`
+**Top-1 Label:** `paraphrase` | **Relevant:** `True` | **Score:** `0.8053`
 
 ✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ✅ `paraphrase` - Under IPRA, indigenous peoples are granted rights to their ancestral lands and the preservation of t...
-2. ✅ `exact` - The IPRA protects the rights of Indigenous Cultural Communities/Indigenous Peoples to their ancestra...
-3. ✅ `conceptual` - Laws exist to ensure the protection and promotion of indigenous communities' heritage and traditions...
+1. ✅ `paraphrase` | Score: `0.8053` - Under IPRA, indigenous peoples are granted rights to their ancestral lands and the preservation of t...
+2. ✅ `exact` | Score: `0.7818` - The IPRA protects the rights of Indigenous Cultural Communities/Indigenous Peoples to their ancestra...
+3. ✅ `conceptual` | Score: `0.7515` - Laws exist to ensure the protection and promotion of indigenous communities' heritage and traditions...
 
 
 ---
@@ -699,14 +687,14 @@
 **Top-1 Match:**
 > The state has the authority to protect individuals who cannot protect themselves under the concept of parens patriae.
 
-**Top-1 Label:** `paraphrase` | **Relevant:** `True`
+**Top-1 Label:** `paraphrase` | **Relevant:** `True` | **Score:** `0.8001`
 
 ✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ✅ `paraphrase` - The state has the authority to protect individuals who cannot protect themselves under the concept o...
-2. ✅ `exact` - Parens patriae is the doctrine that allows the state to act as guardian for those unable to care for...
-3. ❌ `irrelevant` - Local governments are required to allocate funds for disaster preparedness....
+1. ✅ `paraphrase` | Score: `0.8001` - The state has the authority to protect individuals who cannot protect themselves under the concept o...
+2. ✅ `exact` | Score: `0.7625` - Parens patriae is the doctrine that allows the state to act as guardian for those unable to care for...
+3. ✅ `conceptual` | Score: `0.6814` - Minors and vulnerable individuals are provided special legal protections....
 
 
 ---
@@ -717,14 +705,14 @@
 **Top-1 Match:**
 > The legal system includes protections against repeated prosecution.
 
-**Top-1 Label:** `conceptual` | **Relevant:** `True`
+**Top-1 Label:** `conceptual` | **Relevant:** `True` | **Score:** `0.7257`
 
 ✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ✅ `conceptual` - The legal system includes protections against repeated prosecution....
-2. ❌ `irrelevant` - Criminal cases involve the state prosecuting a person for an alleged offense....
-3. ❌ `irrelevant` - The barangay justice system handles disputes at the community level....
+1. ✅ `conceptual` | Score: `0.7257` - The legal system includes protections against repeated prosecution....
+2. ✅ `paraphrase` | Score: `0.7142` - A person cannot be tried again for a crime for which they were already acquitted or convicted, which...
+3. ✅ `exact` | Score: `0.7125` - Double jeopardy protects a person from being prosecuted twice for the same offense after acquittal o...
 
 
 ---
@@ -735,14 +723,14 @@
 **Top-1 Match:**
 > The Sandiganbayan is a special court in the Philippines that hears cases involving graft and corruption by public officials.
 
-**Top-1 Label:** `exact` | **Relevant:** `True`
+**Top-1 Label:** `exact` | **Relevant:** `True` | **Score:** `0.7975`
 
 ✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ✅ `exact` - The Sandiganbayan is a special court in the Philippines that hears cases involving graft and corrupt...
-2. ✅ `paraphrase` - Cases involving corruption and misuse of government funds by public officials are handled by the San...
-3. ❌ `irrelevant` - The Supreme Court is the highest judicial body in the country....
+1. ✅ `exact` | Score: `0.7975` - The Sandiganbayan is a special court in the Philippines that hears cases involving graft and corrupt...
+2. ✅ `paraphrase` | Score: `0.7815` - Cases involving corruption and misuse of government funds by public officials are handled by the San...
+3. ✅ `conceptual` | Score: `0.7576` - There are special courts in the Philippines assigned to try specific categories of cases....
 
 
 ---
@@ -753,14 +741,14 @@
 **Top-1 Match:**
 > The doctrine of exhaustion of administrative remedies requires a party to seek relief from administrative bodies before going to court.
 
-**Top-1 Label:** `exact` | **Relevant:** `True`
+**Top-1 Label:** `exact` | **Relevant:** `True` | **Score:** `0.8590`
 
 ✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ✅ `exact` - The doctrine of exhaustion of administrative remedies requires a party to seek relief from administr...
-2. ✅ `conceptual` - Administrative bodies are empowered to resolve disputes within their specialized jurisdictions....
-3. ❌ `irrelevant` - A court can review the decisions of government agencies....
+1. ✅ `exact` | Score: `0.8590` - The doctrine of exhaustion of administrative remedies requires a party to seek relief from administr...
+2. ✅ `paraphrase` | Score: `0.7643` - Before filing a case in court, a person must first utilize the remedies available within the concern...
+3. ❌ `irrelevant` | Score: `0.7377` - Quasi-judicial bodies exercise adjudicatory functions in specific legal fields....
 
 
 ---
@@ -771,14 +759,14 @@
 **Top-1 Match:**
 > In the Philippines, agrarian reform is a government initiative to transfer land ownership from landlords to tenants and farmers.
 
-**Top-1 Label:** `paraphrase` | **Relevant:** `True`
+**Top-1 Label:** `paraphrase` | **Relevant:** `True` | **Score:** `0.7827`
 
 ✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ✅ `paraphrase` - In the Philippines, agrarian reform is a government initiative to transfer land ownership from landl...
-2. ❌ `irrelevant` - Farming is a primary source of livelihood in rural areas....
-3. ✅ `exact` - Agrarian reform refers to the redistribution of agricultural land to farmers and farmworkers, aiming...
+1. ✅ `paraphrase` | Score: `0.7827` - In the Philippines, agrarian reform is a government initiative to transfer land ownership from landl...
+2. ✅ `exact` | Score: `0.7535` - Agrarian reform refers to the redistribution of agricultural land to farmers and farmworkers, aiming...
+3. ✅ `conceptual` | Score: `0.7192` - Programs exist to ensure equitable land distribution and uplift rural communities....
 
 
 ---
@@ -789,14 +777,14 @@
 **Top-1 Match:**
 > RA 9262 is a Philippine law that defines and penalizes violence against women and their children, including physical, psychological, and economic abuse.
 
-**Top-1 Label:** `exact` | **Relevant:** `True`
+**Top-1 Label:** `exact` | **Relevant:** `True` | **Score:** `0.8121`
 
 ✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ✅ `exact` - RA 9262 is a Philippine law that defines and penalizes violence against women and their children, in...
-2. ✅ `paraphrase` - The Anti-VAWC Act protects women and children from various forms of abuse committed by partners or f...
-3. ❌ `irrelevant` - The Child and Youth Welfare Code protects the rights of minors....
+1. ✅ `exact` | Score: `0.8121` - RA 9262 is a Philippine law that defines and penalizes violence against women and their children, in...
+2. ✅ `paraphrase` | Score: `0.7836` - The Anti-VAWC Act protects women and children from various forms of abuse committed by partners or f...
+3. ❌ `irrelevant` | Score: `0.7570` - The Child and Youth Welfare Code protects the rights of minors....
 
 
 ---
@@ -807,14 +795,14 @@
 **Top-1 Match:**
 > The Katarungang Pambarangay system is a local justice system that aims to amicably settle disputes at the barangay level before they escalate to formal courts.
 
-**Top-1 Label:** `exact` | **Relevant:** `True`
+**Top-1 Label:** `exact` | **Relevant:** `True` | **Score:** `0.7969`
 
 ✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ✅ `exact` - The Katarungang Pambarangay system is a local justice system that aims to amicably settle disputes a...
-2. ✅ `paraphrase` - Barangay justice promotes community-based resolution of disputes through conciliation and mediation....
-3. ❌ `irrelevant` - The Commission on Elections supervises the conduct of elections....
+1. ✅ `exact` | Score: `0.7969` - The Katarungang Pambarangay system is a local justice system that aims to amicably settle disputes a...
+2. ✅ `conceptual` | Score: `0.6888` - Local governments have mechanisms to resolve minor conflicts within their jurisdiction....
+3. ✅ `paraphrase` | Score: `0.6842` - Barangay justice promotes community-based resolution of disputes through conciliation and mediation....
 
 
 ---
@@ -825,14 +813,14 @@
 **Top-1 Match:**
 > The doctrine of primary jurisdiction holds that courts should defer to administrative agencies when a case requires the agency’s specialized expertise.
 
-**Top-1 Label:** `exact` | **Relevant:** `True`
+**Top-1 Label:** `exact` | **Relevant:** `True` | **Score:** `0.8031`
 
 ✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ✅ `exact` - The doctrine of primary jurisdiction holds that courts should defer to administrative agencies when...
-2. ❌ `irrelevant` - Administrative agencies are part of the executive branch....
-3. ❌ `irrelevant` - The Commission on Audit reviews government expenditures for legality and propriety....
+1. ✅ `exact` | Score: `0.8031` - The doctrine of primary jurisdiction holds that courts should defer to administrative agencies when...
+2. ✅ `conceptual` | Score: `0.7175` - Some disputes are better handled by expert government bodies before judicial intervention....
+3. ❌ `irrelevant` | Score: `0.7165` - The Commission on Audit reviews government expenditures for legality and propriety....
 
 
 ---
@@ -843,14 +831,14 @@
 **Top-1 Match:**
 > In expropriation, property owners must be paid fairly for the land acquired by the government.
 
-**Top-1 Label:** `paraphrase` | **Relevant:** `True`
+**Top-1 Label:** `paraphrase` | **Relevant:** `True` | **Score:** `0.7865`
 
 ✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ✅ `paraphrase` - In expropriation, property owners must be paid fairly for the land acquired by the government....
-2. ✅ `exact` - Just compensation refers to the fair value of property taken by the government for public use, ensur...
-3. ✅ `conceptual` - Constitutional rights protect property owners from unjust land seizures....
+1. ✅ `paraphrase` | Score: `0.7865` - In expropriation, property owners must be paid fairly for the land acquired by the government....
+2. ✅ `conceptual` | Score: `0.7535` - Constitutional rights protect property owners from unjust land seizures....
+3. ✅ `exact` | Score: `0.7388` - Just compensation refers to the fair value of property taken by the government for public use, ensur...
 
 
 ---
@@ -861,14 +849,14 @@
 **Top-1 Match:**
 > RA 11479 is a law enacted to strengthen the Philippines' legal framework against terrorism, including provisions for extended detention and surveillance.
 
-**Top-1 Label:** `exact` | **Relevant:** `True`
+**Top-1 Label:** `exact` | **Relevant:** `True` | **Score:** `0.7771`
 
 ✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ✅ `exact` - RA 11479 is a law enacted to strengthen the Philippines' legal framework against terrorism, includin...
-2. ✅ `paraphrase` - The Anti-Terrorism Act allows law enforcers to arrest and monitor individuals suspected of terrorist...
-3. ✅ `conceptual` - National security laws grant the government broader powers to combat terrorism....
+1. ✅ `exact` | Score: `0.7771` - RA 11479 is a law enacted to strengthen the Philippines' legal framework against terrorism, includin...
+2. ✅ `paraphrase` | Score: `0.7618` - The Anti-Terrorism Act allows law enforcers to arrest and monitor individuals suspected of terrorist...
+3. ❌ `irrelevant` | Score: `0.7247` - The Dangerous Drugs Act penalizes possession and use of illegal drugs....
 
 
 ---
@@ -877,16 +865,16 @@
 **Query:** What is the legal implication of 'informed consent' in medical treatment?
 
 **Top-1 Match:**
-> Informed consent means a patient agrees to a medical procedure after understanding its risks, benefits, and alternatives.
+> Medical ethics require transparency and voluntary participation in procedures.
 
-**Top-1 Label:** `exact` | **Relevant:** `True`
+**Top-1 Label:** `conceptual` | **Relevant:** `True` | **Score:** `0.7683`
 
 ✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ✅ `exact` - Informed consent means a patient agrees to a medical procedure after understanding its risks, benefi...
-2. ✅ `conceptual` - Medical ethics require transparency and voluntary participation in procedures....
-3. ✅ `paraphrase` - Doctors must ensure that patients voluntarily agree to treatment based on sufficient information....
+1. ✅ `conceptual` | Score: `0.7683` - Medical ethics require transparency and voluntary participation in procedures....
+2. ✅ `exact` | Score: `0.7592` - Informed consent means a patient agrees to a medical procedure after understanding its risks, benefi...
+3. ✅ `paraphrase` | Score: `0.7441` - Doctors must ensure that patients voluntarily agree to treatment based on sufficient information....
 
 
 ---
@@ -897,14 +885,14 @@
 **Top-1 Match:**
 > The Civil Service Commission oversees the integrity and efficiency of the civil service and ensures merit-based appointments in government.
 
-**Top-1 Label:** `exact` | **Relevant:** `True`
+**Top-1 Label:** `exact` | **Relevant:** `True` | **Score:** `0.7912`
 
 ✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ✅ `exact` - The Civil Service Commission oversees the integrity and efficiency of the civil service and ensures...
-2. ✅ `paraphrase` - CSC is responsible for ensuring fair hiring and disciplinary standards for government employees....
-3. ❌ `irrelevant` - The Department of Health handles national health policies....
+1. ✅ `exact` | Score: `0.7912` - The Civil Service Commission oversees the integrity and efficiency of the civil service and ensures...
+2. ✅ `paraphrase` | Score: `0.7469` - CSC is responsible for ensuring fair hiring and disciplinary standards for government employees....
+3. ✅ `conceptual` | Score: `0.7283` - Government institutions are expected to uphold professionalism and accountability in public service....
 
 
 ---
@@ -913,16 +901,16 @@
 **Query:** What is the 'Comprehensive Dangerous Drugs Act' (RA 9165) of the Philippines?
 
 **Top-1 Match:**
-> The Philippine Drug Enforcement Agency is the lead agency in anti-drug operations.
+> The Comprehensive Dangerous Drugs Act criminalizes the importation, sale, possession, and use of illegal drugs, establishing rehabilitation programs and a national drug prevention campaign.
 
-**Top-1 Label:** `irrelevant` | **Relevant:** `False`
+**Top-1 Label:** `exact` | **Relevant:** `True` | **Score:** `0.7497`
 
-❌ **Top-1 retrieval failed (irrelevant passage).**
+✅ **Top-1 retrieval correct.**
 
 **Top-3 Retrieved Passages:**
-1. ❌ `irrelevant` - The Philippine Drug Enforcement Agency is the lead agency in anti-drug operations....
-2. ✅ `exact` - The Comprehensive Dangerous Drugs Act criminalizes the importation, sale, possession, and use of ill...
-3. ❌ `irrelevant` - The Land Transportation Office issues driver’s licenses and vehicle registrations....
+1. ✅ `exact` | Score: `0.7497` - The Comprehensive Dangerous Drugs Act criminalizes the importation, sale, possession, and use of ill...
+2. ❌ `irrelevant` | Score: `0.7464` - The Philippine Drug Enforcement Agency is the lead agency in anti-drug operations....
+3. ✅ `paraphrase` | Score: `0.7426` - RA 9165 penalizes drug-related offenses and provides for treatment and rehabilitation of drug depend...
 
 
 ---
