@@ -15,17 +15,15 @@ A comprehensive platform for evaluating and comparing different text similarity 
 ### Using Docker (Recommended)
 
 1. **Clone and setup**:
-   \`bash
+   ```bash
    git clone <repository>
    cd similarity-evaluation
    chmod +x scripts/*.sh
    ./scripts/setup.sh
-   \`
 
 2. **Run the platform**:
-   \`bash
+   ```bash
    ./scripts/run.sh
-   \`
 
 3. **Access the services**:
    - Jupyter Lab: http://localhost:8888
@@ -34,29 +32,25 @@ A comprehensive platform for evaluating and comparing different text similarity 
 ### Manual Setup
 
 1. **Install dependencies**:
-   \`bash
+   ```bash
    pip install -r requirements.txt
    python -m spacy download en_core_web_sm
-   \`
 
 2. **Run evaluation**:
-   \`bash
+   ```bash
    python main.py
-   \`
 
 3. **Start Streamlit app**:
-   \`bash
+   ```bash
    streamlit run app.py
-   \`
 
 4. **Start Jupyter notebook**:
-   \`bash
+   ```bash
    jupyter lab notebooks/
-   \`
 
 ## Project Structure
 
-\`
+```
 ├── models/                 # Similarity metric implementations
 │   ├── tfidf_cosine.py
 │   ├── okapi_bm25.py
@@ -75,7 +69,7 @@ A comprehensive platform for evaluating and comparing different text similarity 
 ├── Dockerfile            # Docker configuration
 ├── docker-compose.yml    # Multi-service setup
 └── requirements.txt      # Python dependencies
-\`
+```
 
 ## Streamlit Interface Features
 
@@ -144,7 +138,7 @@ The Streamlit interface provides:
 ## Usage Examples
 
 ### Command Line
-\`bash
+```bash
 # Run full evaluation
 python main.py
 
@@ -163,20 +157,20 @@ with open('dataset/philippine-legal-dataset.json') as f:
 model = SentenceBERTSimilarity()
 generate_analysis_log('sbert_custom', dataset, model)
 "
-\`
+```
 
 ### Python API
-\`python
+```python
 from models.sbert import SentenceBERTSimilarity
 
 model = SentenceBERTSimilarity()
 query = "What is estafa under Philippine law?"
 passages = ["Estafa is fraud...", "Robbery is theft..."]
 scores = model.rank(query, passages)
-\`
+```
 
 ### Streamlit Components
-\`python
+```python
 import streamlit as st
 from models.sbert import SentenceBERTSimilarity
 
@@ -190,7 +184,7 @@ query = st.text_input("Enter query:")
 if query:
     scores = model.rank(query, passages)
     st.plotly_chart(create_similarity_chart(scores))
-\`
+```
 
 ## Contributing
 
