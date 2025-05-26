@@ -40,6 +40,16 @@ def generate_analysis_log(model_name, dataset, model, metrics=None, output_dir="
 
             correct_top1 = labels[top1_idx]
 
+            # Skip non-failure, non-edge cases
+            is_edge_case = (
+                all(label == 0 for label in labels) or
+                all(label == 1 for label in labels) or
+                (sum(labels[idx] for idx in top3_idx) > 1 and not correct_top1)
+            )
+            if correct_top1 and not is_edge_case:
+                continue  # Skip normal correct cases
+
+            # Log only relevant cases
             f.write(f"### Example {i + 1}\n")
             f.write(f"**Query:** {query}\n\n")
             f.write(f"**Top-1 Match:**\n> {passages[top1_idx]}\n\n")
@@ -58,14 +68,11 @@ def generate_analysis_log(model_name, dataset, model, metrics=None, output_dir="
 
             f.write("\n")
 
-            # Edge Cases
             if all(label == 0 for label in labels):
                 f.write("⚠️ **Edge Case:** All passages are irrelevant.\n\n")
-
-            if all(label == 1 for label in labels):
+            elif all(label == 1 for label in labels):
                 f.write("⚠️ **Edge Case:** All passages are relevant.\n\n")
-
-            if sum(labels[idx] for idx in top3_idx) > 1 and not correct_top1:
+            elif sum(labels[idx] for idx in top3_idx) > 1 and not correct_top1:
                 f.write("⚠️ **Edge Case:** Multiple relevant passages in top-3 but top-1 is incorrect.\n\n")
 
             f.write("\n---\n\n")
