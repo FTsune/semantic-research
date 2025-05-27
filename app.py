@@ -88,7 +88,7 @@ def show_home_page():
         
         ### 🚀 Features
         
-        - **5 Similarity Metrics**: TF-IDF Cosine, BM25, Jaccard, Sentence BERT, BERTScore
+        - **5 Similarity Metrics**: TF-IDF, BM25, Jaccard, Sentence BERT, BERTScore
         - **Interactive Testing**: Real-time similarity calculation with custom queries
         - **Performance Comparison**: Side-by-side model evaluation
         - **Batch Analysis**: Process multiple queries efficiently
@@ -98,7 +98,7 @@ def show_home_page():
         """)
         
         model_info = {
-            "TF-IDF Cosine": "Traditional term frequency-inverse document frequency with cosine similarity",
+            "TF-IDF": "Traditional term frequency-inverse document frequency with cosine similarity",
             "BM25": "Probabilistic ranking function used by search engines",
             "Jaccard": "Set-based similarity measure using token overlap",
             "Sentence BERT": "Transformer-based semantic embeddings",
