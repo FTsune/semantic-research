@@ -83,12 +83,6 @@ A comprehensive platform for evaluating and comparing different text similarity 
 - Resource usage analysis
 - Best model recommendations
 
-### 📈 Performance Dashboard
-- Real-time monitoring
-- Performance trends visualization
-- System status indicators
-- Auto-refresh capabilities
-
 ### 📋 Batch Analysis
 - Full dataset processing
 - Custom query batch upload
