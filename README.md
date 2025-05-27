@@ -32,7 +32,7 @@ A comprehensive platform for evaluating and comparing different text similarity 
    pip install -r requirements.txt
    python -m spacy download en_core_web_sm
 
-2. **Run evaluation**:
+2. **Run evaluation (Optional)**:
    ```bash
    python main.py
 

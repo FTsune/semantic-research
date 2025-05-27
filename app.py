@@ -33,7 +33,7 @@ st.set_page_config(
 def load_models():
     """Load and cache all similarity models"""
     return {
-        'TF-IDF Cosine': TFIDFCosineSimilarity(use_dimensionality_reduction=True, n_components=50),
+        'TF-IDF': TFIDFCosineSimilarity(use_dimensionality_reduction=True, n_components=50),
         'BM25': BM25Similarity(),
         'Jaccard': JaccardSimilarity(),
         'Sentence BERT': SentenceBERTSimilarity(model_name='all-mpnet-base-v2'),
