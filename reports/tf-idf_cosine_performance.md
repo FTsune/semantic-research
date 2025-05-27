@@ -3,11 +3,11 @@
 ## Quantitative Metrics
 
 - **Precision@1**: 0.9800
-- **Precision@3**: 0.7467
-- **Recall@3**: 0.7467
+- **Precision@3**: 0.7333
+- **Recall@3**: 0.7333
 - **MRR**: 0.9867
-- **Runtime (in seconds)**: 6.4904
-- **Peak Memory (in KB)**: 896.2490
+- **Runtime (in seconds)**: 6.5988
+- **Peak Memory (in KB)**: 920.5254
 
 ---
 
