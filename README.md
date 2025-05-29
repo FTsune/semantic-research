@@ -15,7 +15,7 @@ A comprehensive platform for evaluating and comparing different text similarity 
 
 1. **Clone and setup**:
    ```bash
-   git clone <repository>
+   git clone https://github.com/FTsune/semantic-research.git
    cd semantic-research
 
 2. **Run the platform**:
