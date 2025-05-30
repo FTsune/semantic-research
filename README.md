@@ -1,4 +1,4 @@
-# Semantic Research using Similarity Metrics
+# LegalSimLab: Semantic Research using Similarity Metrics
 
 A comprehensive platform for evaluating and comparing different text similarity metrics on legal documents.
 

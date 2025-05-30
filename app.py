@@ -23,7 +23,7 @@ warnings.filterwarnings("ignore", category=UserWarning, module="torch")
 
 # Page configuration
 st.set_page_config(
-    page_title="Text Similarity Evaluation Platform",
+    page_title="LegalSimLab",
     page_icon="🔍",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -52,7 +52,7 @@ def load_dataset():
 
 def main():
     # Header
-    st.markdown('<h1 class="main-header">🔍 Text Similarity Evaluation</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header">🔍 LegalSimLab</h1>', unsafe_allow_html=True)
     
     # Sidebar
     st.sidebar.title("Navigation")
@@ -81,7 +81,7 @@ def show_home_page():
     
     with col1:
         st.markdown("""
-        ## Welcome to the Text Similarity Evaluation Platform
+        ## Welcome to LegalSimLab!
         
         This platform provides comprehensive tools for evaluating and comparing different text similarity metrics 
         specifically designed for Philippine legal document retrieval and analysis.
